@@ -731,7 +731,7 @@ function App() {
           minHeight: '200px',
           maxHeight: '300px',
           marginBottom: '2rem',
-          backgroundImage: 'url(/anno-arda-v00.png)',
+          backgroundImage: `url(${import.meta.env.BASE_URL}anno-arda-v00.png)`,
           backgroundSize: 'contain',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
