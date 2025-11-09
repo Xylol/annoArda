@@ -1,0 +1,3839 @@
+[
+  {
+    "name": "Fall of Minas Ithil",
+    "date": "3A-2002",
+    "range": "2002",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Minas Ithil is captured by the Nazgûl and renamed Minas Morgul. The Palantír of the city is seized.",
+    "characters": [
+      "Nazgûl"
+    ],
+    "locations": [
+      "Minas Ithil",
+      "Minas Morgul"
+    ],
+    "artifacts": [
+      "Palantír"
+    ],
+    "type": "capture"
+  },
+  {
+    "name": "Eärnur becomes King",
+    "date": "3A-2043",
+    "range": "2043",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Eärnur becomes King of Gondor and is challenged to single combat by the Witch-king.",
+    "characters": [
+      "Eärnur",
+      "Witch-king"
+    ],
+    "locations": [
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "succession"
+  },
+  {
+    "name": "End of the Kings of Gondor",
+    "date": "3A-2050",
+    "range": "2050",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The challenge is repeated, Eärnur rides to Minas Morgul and never returns. Since he leaves no descendants, the kingship in Gondor ends and the Stewards take power, \"until the king returns\". Mardil I becomes first ruling Steward.",
+    "characters": [
+      "Eärnur",
+      "Mardil I"
+    ],
+    "locations": [
+      "Minas Morgul",
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "political"
+  },
+  {
+    "name": "Gandalf goes to Dol Guldur",
+    "date": "3A-2063",
+    "range": "2063",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf decides to go to Dol Guldur. Sauron withdraws and hides in the east and the Watchful Peace begins.",
+    "characters": [
+      "Gandalf",
+      "Sauron"
+    ],
+    "locations": [
+      "Dol Guldur"
+    ],
+    "artifacts": [],
+    "type": "investigation"
+  },
+  {
+    "name": "Thorin I leaves Erebor",
+    "date": "3A-2210",
+    "range": "2210",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Thorin I leaves the Erebor and leads most of his people to the Grey Mountains.",
+    "characters": [
+      "Thorin I"
+    ],
+    "locations": [
+      "Erebor",
+      "Grey Mountains"
+    ],
+    "artifacts": [],
+    "type": "migration"
+  },
+  {
+    "name": "Isumbras I becomes thirteenth Thain",
+    "date": "3A-2340",
+    "range": "2340",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Isumbras I becomes the thirteenth Thain of the Shire and the first from the Took family. The Buckland is settled by the Oldbucks.",
+    "characters": [
+      "Isumbras I",
+      "Took",
+      "Oldbucks"
+    ],
+    "locations": [
+      "Shire",
+      "Buckland"
+    ],
+    "artifacts": [],
+    "type": "political"
+  },
+  {
+    "name": "Birth of Sméagol",
+    "date": "3A-2430",
+    "range": "2430",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Sméagol is born.",
+    "characters": [
+      "Sméagol"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "End of the Watchful Peace",
+    "date": "3A-2460",
+    "range": "2460",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Sauron returns to Dol Guldur stronger than before and the Watchful Peace comes to an end.",
+    "characters": [
+      "Sauron"
+    ],
+    "locations": [
+      "Dol Guldur"
+    ],
+    "artifacts": [],
+    "type": "return"
+  },
+  {
+    "name": "Finding of the One Ring",
+    "date": "3A-2463",
+    "range": "2463",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The White Council is formed. The One Ring is found by the Stoor Déagol, who is murdered by his friend Sméagol, who takes the Ring into his possession.",
+    "characters": [
+      "White Council",
+      "Déagol",
+      "Sméagol"
+    ],
+    "locations": [],
+    "artifacts": [
+      "One Ring"
+    ],
+    "type": "discovery"
+  },
+  {
+    "name": "Sméagol becomes Gollum",
+    "date": "3A-2470",
+    "range": "2470",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Sméagol, later Gollum, hides in the Misty Mountains after being cast out by his kindred.",
+    "characters": [
+      "Sméagol",
+      "Gollum"
+    ],
+    "locations": [
+      "Misty Mountains"
+    ],
+    "artifacts": [],
+    "type": "exile"
+  },
+  {
+    "name": "Sauron's attack on Gondor",
+    "date": "3A-2475",
+    "range": "2475",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Sauron's attack on Gondor, in which Osgiliath and the stone bridge over the Anduin are destroyed.",
+    "characters": [
+      "Sauron"
+    ],
+    "locations": [
+      "Gondor",
+      "Osgiliath",
+      "Anduin"
+    ],
+    "artifacts": [],
+    "type": "attack"
+  },
+  {
+    "name": "Orcs block all passes to Eriador",
+    "date": "3A-2480",
+    "range": "ca. 2480",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Orcs of the Misty Mountains, which had again multiplied greatly in the years before, begin to block all passes to Eriador. Moria is populated by Sauron's creatures.",
+    "characters": [
+      "Orcs",
+      "Sauron"
+    ],
+    "locations": [
+      "Misty Mountains",
+      "Eriador",
+      "Moria"
+    ],
+    "artifacts": [],
+    "type": "blockade"
+  },
+  {
+    "name": "Celebrían attacked by Orcs",
+    "date": "3A-2509",
+    "range": "2509",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Elrond's wife Celebrían is attacked by Orcs on a journey to Lothlórien to her mother Galadriel on the Redhorn Pass and taken prisoner. She can be freed by her sons Elladan and Elrohir, but is tortured and bears a poisoned wound.",
+    "characters": [
+      "Elrond",
+      "Celebrían",
+      "Orcs",
+      "Galadriel",
+      "Elladan",
+      "Elrohir"
+    ],
+    "locations": [
+      "Lothlórien",
+      "Redhorn Pass"
+    ],
+    "artifacts": [],
+    "type": "attack"
+  },
+  {
+    "name": "Battle of the Field of Celebrant",
+    "date": "3A-2510",
+    "range": "2510",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Celebrían sails west, although Elrond could heal her physically. Calenardhon is overrun by Orcs from the Misty Mountains and the Balchoth, who came from the northeast and had previously ravaged Rhovanion, traversed the Brown Lands and crossed the Anduin with rafts. Eorl the Young from the people of the Éothéod follows the call for help from Gondor's Steward Cirion, leads a great cavalry army southward, defeats them on the plain of Celebrant and saves the hemmed-in remnants of Gondor's northern army. The already largely depopulated Calenardhon since the Great Plague is left to his people and the kingdom of Rohan is founded, which is allied with Gondor. Eorl becomes the first King of the Mark of Rohan, for residence he takes a green hill at the foot of the White Mountains, on which the capital Edoras arises.",
+    "characters": [
+      "Celebrían",
+      "Elrond",
+      "Orcs",
+      "Balchoth",
+      "Eorl",
+      "Éothéod",
+      "Cirion"
+    ],
+    "locations": [
+      "Calenardhon",
+      "Misty Mountains",
+      "Rhovanion",
+      "Brown Lands",
+      "Anduin",
+      "Celebrant",
+      "Gondor",
+      "Rohan",
+      "White Mountains",
+      "Edoras"
+    ],
+    "artifacts": [],
+    "type": "battle"
+  },
+  {
+    "name": "Nazgûl besiege Minas Ithil",
+    "date": "3A-2000",
+    "range": "2000",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Nazgûl come out from Mordor and besiege the city of Minas Ithil.",
+    "characters": [
+      "Nazgûl"
+    ],
+    "locations": [
+      "Mordor",
+      "Minas Ithil"
+    ],
+    "artifacts": [],
+    "type": "military"
+  },
+  {
+    "name": "Eärnur becomes King, first challenge",
+    "date": "3A-2043",
+    "range": "2043",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Eärnur becomes King of Gondor and is challenged to single combat by the Witch-king.",
+    "characters": [
+      "Eärnur",
+      "Witch-king"
+    ],
+    "locations": [
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "political"
+  },
+  {
+    "name": "End of Gondor's kingship",
+    "date": "3A-2050",
+    "range": "2050",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The challenge is repeated, Eärnur rides to Minas Morgul and never returns. Since he leaves no descendants, the kingship in Gondor ends and the Stewards take power, 'until the king returns'. Mardil I becomes first ruling Steward.",
+    "characters": [
+      "Eärnur",
+      "Witch-king",
+      "Mardil I"
+    ],
+    "locations": [
+      "Minas Morgul",
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "political"
+  },
+  {
+    "name": "Dol Guldur's power increases",
+    "date": "3A-2060",
+    "range": "2060",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Dol Guldur's power continues to increase. It is feared that Sauron might dwell there and is taking shape again.",
+    "characters": [
+      "Sauron"
+    ],
+    "locations": [
+      "Dol Guldur"
+    ],
+    "artifacts": [],
+    "type": "supernatural"
+  },
+  {
+    "name": "Gandalf goes to Dol Guldur, Watchful Peace begins",
+    "date": "3A-2063",
+    "range": "2063",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf decides to go to Dol Guldur. Sauron withdraws and hides in the east and the Watchful Peace begins.",
+    "characters": [
+      "Gandalf",
+      "Sauron"
+    ],
+    "locations": [
+      "Dol Guldur"
+    ],
+    "artifacts": [],
+    "type": "supernatural"
+  },
+  {
+    "name": "Thorin I moves to Grey Mountains",
+    "date": "3A-2210",
+    "range": "2210",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Thorin I leaves the Erebor and leads most of his people to the Grey Mountains.",
+    "characters": [
+      "Thorin I"
+    ],
+    "locations": [
+      "Erebor",
+      "Grey Mountains"
+    ],
+    "artifacts": [],
+    "type": "migration"
+  },
+  {
+    "name": "First Took Thain, Buckland settled",
+    "date": "3A-2340",
+    "range": "2340",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Isumbras I becomes the thirteenth Thain of the Shire and the first from the Took family. The Buckland is settled by the Oldbucks.",
+    "characters": [
+      "Isumbras I",
+      "Tooks",
+      "Oldbucks"
+    ],
+    "locations": [
+      "Shire",
+      "Buckland"
+    ],
+    "artifacts": [],
+    "type": "political"
+  },
+  {
+    "name": "Sméagol born",
+    "date": "3A-2430",
+    "range": "2430",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Sméagol is born.",
+    "characters": [
+      "Sméagol"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "Sauron returns, Watchful Peace ends",
+    "date": "3A-2460",
+    "range": "2460",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Sauron returns to Dol Guldur stronger than before and the Watchful Peace comes to an end.",
+    "characters": [
+      "Sauron"
+    ],
+    "locations": [
+      "Dol Guldur"
+    ],
+    "artifacts": [],
+    "type": "supernatural"
+  },
+  {
+    "name": "White Council formed, Ring found",
+    "date": "3A-2463",
+    "range": "2463",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The White Council is formed. The One Ring is found by the Stoor Déagol, who is murdered by his friend Sméagol, who takes the Ring into his possession.",
+    "characters": [
+      "White Council",
+      "Déagol",
+      "Sméagol"
+    ],
+    "locations": [],
+    "artifacts": [
+      "One Ring"
+    ],
+    "type": "supernatural"
+  },
+  {
+    "name": "Gollum hides in Misty Mountains",
+    "date": "3A-2470",
+    "range": "2470",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Sméagol, later Gollum, hides in the Misty Mountains after being cast out by his kindred.",
+    "characters": [
+      "Sméagol",
+      "Gollum"
+    ],
+    "locations": [
+      "Misty Mountains"
+    ],
+    "artifacts": [],
+    "type": "exile"
+  },
+  {
+    "name": "Sauron attacks Gondor, Osgiliath damaged",
+    "date": "3A-2475",
+    "range": "2475",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Sauron's attack on Gondor, in which Osgiliath and the stone bridge over the Anduin are destroyed.",
+    "characters": [
+      "Sauron"
+    ],
+    "locations": [
+      "Gondor",
+      "Osgiliath",
+      "Anduin"
+    ],
+    "artifacts": [],
+    "type": "military"
+  },
+  {
+    "name": "Orcs multiply, passes blocked",
+    "date": "3A-2480",
+    "range": "ca. 2480",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Orcs of the Misty Mountains, which had again multiplied greatly in the years before, begin to block all passes to Eriador. Moria is populated by Sauron's creatures.",
+    "characters": [
+      "Orcs",
+      "Sauron"
+    ],
+    "locations": [
+      "Misty Mountains",
+      "Eriador",
+      "Moria"
+    ],
+    "artifacts": [],
+    "type": "military"
+  },
+  {
+    "name": "Celebrían captured and tortured",
+    "date": "3A-2509",
+    "range": "2509",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Elrond's wife Celebrían is attacked by Orcs on a journey to Lothlórien to her mother Galadriel on the Redhorn Pass and taken prisoner. She can be freed by her sons Elladan and Elrohir, but is tortured and bears a poisoned wound.",
+    "characters": [
+      "Celebrían",
+      "Elrond",
+      "Galadriel",
+      "Elladan",
+      "Elrohir",
+      "Orcs"
+    ],
+    "locations": [
+      "Lothlórien",
+      "Redhorn Pass"
+    ],
+    "artifacts": [],
+    "type": "attack"
+  },
+  {
+    "name": "Death of Eorl",
+    "date": "3A-2545",
+    "range": "2545",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Eorl falls in a battle in the Wold in a renewed attack of the Balchoth, who are finally driven away in the following years by his son Brego.",
+    "characters": [
+      "Eorl",
+      "Balchoth",
+      "Brego"
+    ],
+    "locations": [
+      "Wold"
+    ],
+    "artifacts": [],
+    "type": "battle"
+  },
+  {
+    "name": "Meduseld completed, Baldor's vow",
+    "date": "3A-2569",
+    "range": "2569",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The 'Golden Hall' Meduseld is completed by Brego. At the dedication his eldest son Baldor vows to enter the Paths of the Dead.",
+    "characters": [
+      "Brego",
+      "Baldor"
+    ],
+    "locations": [
+      "Meduseld",
+      "Paths of the Dead"
+    ],
+    "artifacts": [],
+    "type": "construction"
+  },
+  {
+    "name": "Baldor enters Paths of the Dead, dragons return",
+    "date": "3A-2570",
+    "range": "2570",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Brego's son Baldor enters the Paths of the Dead and remains missing. His father dies of grief. In the north dragons emerge again in the Grey Mountains and attack the Dwarves.",
+    "characters": [
+      "Baldor",
+      "Brego",
+      "Dragons",
+      "Dwarves"
+    ],
+    "locations": [
+      "Paths of the Dead",
+      "Grey Mountains"
+    ],
+    "artifacts": [],
+    "type": "disaster"
+  },
+  {
+    "name": "Dáin I killed by dragon",
+    "date": "3A-2589",
+    "range": "2589",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "King Dáin I is killed by a dragon.",
+    "characters": [
+      "Dáin I",
+      "Dragon"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "death"
+  },
+  {
+    "name": "Return to Erebor and Iron Hills",
+    "date": "3A-2590",
+    "range": "2590",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Thrór returns with part of his people to the Erebor, his brother Grór goes to the Iron Hills.",
+    "characters": [
+      "Thrór",
+      "Grór"
+    ],
+    "locations": [
+      "Erebor",
+      "Iron Hills"
+    ],
+    "artifacts": [],
+    "type": "migration"
+  },
+  {
+    "name": "First pipe-weed cultivation",
+    "date": "3A-2670",
+    "range": "ca. 2670",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Tobold Hornblower cultivates 'pipe-weed' in the Southfarthing as the first Hobbit.",
+    "characters": [
+      "Tobold Hornblower"
+    ],
+    "locations": [
+      "Southfarthing"
+    ],
+    "artifacts": [],
+    "type": "agricultural"
+  },
+  {
+    "name": "Great Smials excavations begin",
+    "date": "3A-2683",
+    "range": "2683",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Isengrim II becomes tenth Thain and begins the excavations for the Great Smials, the dwellings of the Tooks.",
+    "characters": [
+      "Isengrim II",
+      "Tooks"
+    ],
+    "locations": [
+      "Great Smials"
+    ],
+    "artifacts": [],
+    "type": "construction"
+  },
+  {
+    "name": "White Tower renewed",
+    "date": "3A-2698",
+    "range": "2698",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Ecthelion I renews the White Tower in Minas Tirith.",
+    "characters": [
+      "Ecthelion I"
+    ],
+    "locations": [
+      "Minas Tirith",
+      "White Tower"
+    ],
+    "artifacts": [],
+    "type": "construction"
+  },
+  {
+    "name": "Orcs invade Eriador again",
+    "date": "3A-2740",
+    "range": "2740",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Orcs begin to invade Eriador again.",
+    "characters": [
+      "Orcs"
+    ],
+    "locations": [
+      "Eriador"
+    ],
+    "artifacts": [],
+    "type": "military"
+  },
+  {
+    "name": "Battle of Greenfields",
+    "date": "3A-2747",
+    "range": "2747",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "An Orc-band is defeated by Bandobras Took in the Northfarthing in the Battle of Greenfields.",
+    "characters": [
+      "Bandobras Took",
+      "Orcs"
+    ],
+    "locations": [
+      "Northfarthing",
+      "Greenfields"
+    ],
+    "artifacts": [],
+    "type": "battle"
+  },
+  {
+    "name": "War of Rohan and the Long Winter",
+    "date": "3A-2758",
+    "range": "2758",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Rohan is attacked from two sides: invaders from the east and Dunlendings from the west who had conquered Isengard. Gondor cannot help as it faces three Corsair fleets. Corsairs land at Lefnui and Isen mouths to support the Dunlendings. King Helm Hammerhand is driven from the Isen Fords with great losses and besieged at Hornburg. Edoras is captured and Wulf, son of Freca whom Helm had slain, proclaims himself king. The Long Winter compounds the misery.",
+    "characters": [
+      "Helm Hammerhand",
+      "Dunlendings",
+      "Wulf",
+      "Freca",
+      "Corsairs"
+    ],
+    "locations": [
+      "Rohan",
+      "Isengard",
+      "Isen",
+      "Lefnui",
+      "Hornburg",
+      "Edoras"
+    ],
+    "artifacts": [],
+    "type": "military"
+  },
+  {
+    "name": "End of Long Winter, Fréaláf becomes king",
+    "date": "3A-2759",
+    "range": "2759",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Helm and his two sons perish during the siege. When winter abates, Fréaláf pushes down from Dunharrow, reconquers Edoras and slays Wulf. Snowmelt floods force eastern invaders to retreat. Dunlendings are driven from Rohan and Isengard. Fréaláf becomes first King of the second line of Rohan. Isengard is given to Saruman's care to prevent renewed Dunlending occupation.",
+    "characters": [
+      "Helm",
+      "Fréaláf",
+      "Wulf",
+      "Saruman"
+    ],
+    "locations": [
+      "Dunharrow",
+      "Edoras",
+      "Rohan",
+      "Isengard"
+    ],
+    "artifacts": [],
+    "type": "political"
+  },
+  {
+    "name": "Smaug destroys Erebor and Dale",
+    "date": "3A-2770",
+    "range": "2770",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The dragon Smaug falls upon the Erebor and destroys the city of Dale. King Thrór escapes with his son Thráin and his grandson Thorin.",
+    "characters": [
+      "Smaug",
+      "Thrór",
+      "Thráin",
+      "Thorin"
+    ],
+    "locations": [
+      "Erebor",
+      "Dale"
+    ],
+    "artifacts": [],
+    "type": "disaster"
+  },
+  {
+    "name": "Thrór killed by Azog",
+    "date": "3A-2790",
+    "range": "2790",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Thrór is killed in Moria by the Orc Azog. The Dwarves gather for a war of revenge. Gerontius Took, later known as the Old Took, is born.",
+    "characters": [
+      "Thrór",
+      "Azog",
+      "Dwarves",
+      "Gerontius Took"
+    ],
+    "locations": [
+      "Moria"
+    ],
+    "artifacts": [],
+    "type": "death"
+  },
+  {
+    "name": "War of Dwarves and Orcs begins",
+    "date": "3A-2793",
+    "range": "2793",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The war between the Dwarves and the Orcs of the Misty Mountains begins.",
+    "characters": [
+      "Dwarves",
+      "Orcs"
+    ],
+    "locations": [
+      "Misty Mountains"
+    ],
+    "artifacts": [],
+    "type": "military"
+  },
+  {
+    "name": "Battle of Azanulbizar",
+    "date": "3A-2799",
+    "range": "2799",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The great Battle of Azanulbizar takes place before the East-gate of Moria, in which the Dwarves carry off the victory and Azog is killed by Dáin, but they also suffer heavy losses. Thráin II and his son Thorin wander westward and settle at the foot of the Blue Mountains, Dáin returns to the Iron Hills.",
+    "characters": [
+      "Dwarves",
+      "Azog",
+      "Dáin",
+      "Thráin II",
+      "Thorin"
+    ],
+    "locations": [
+      "Azanulbizar",
+      "Moria",
+      "Blue Mountains",
+      "Iron Hills"
+    ],
+    "artifacts": [],
+    "type": "battle"
+  },
+  {
+    "name": "Orc incursions plague Rohan",
+    "date": "3A-2800",
+    "range": "2800-2864",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Rohan is plagued by constant incursions of Orcs from the north.",
+    "characters": [
+      "Orcs"
+    ],
+    "locations": [
+      "Rohan"
+    ],
+    "artifacts": [],
+    "type": "military"
+  },
+  {
+    "name": "Thráin II sets out for Erebor",
+    "date": "3A-2841",
+    "range": "2841",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Thráin II sets out on the way to the Erebor and is pursued by Sauron's servants.",
+    "characters": [
+      "Thráin II",
+      "Sauron"
+    ],
+    "locations": [
+      "Erebor"
+    ],
+    "artifacts": [],
+    "type": "journey"
+  },
+  {
+    "name": "Thráin II imprisoned in Dol Guldur",
+    "date": "3A-2845",
+    "range": "2845",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Thráin II is imprisoned in Dol Guldur, the last of the Dwarf-rings is taken from him.",
+    "characters": [
+      "Thráin II"
+    ],
+    "locations": [
+      "Dol Guldur"
+    ],
+    "artifacts": [
+      "Dwarf-ring"
+    ],
+    "type": "capture"
+  },
+  {
+    "name": "Gandalf finds Thráin in Dol Guldur",
+    "date": "3A-2850",
+    "range": "2850",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf penetrates Dol Guldur for the second time and recognizes that Sauron actually dwells in this place. He finds Thráin, who hands him the key to the Erebor and dies shortly thereafter.",
+    "characters": [
+      "Gandalf",
+      "Sauron",
+      "Thráin"
+    ],
+    "locations": [
+      "Dol Guldur",
+      "Erebor"
+    ],
+    "artifacts": [
+      "Key to Erebor"
+    ],
+    "type": "rescue"
+  },
+  {
+    "name": "White Council meets, Saruman opposes attack",
+    "date": "3A-2851",
+    "range": "2851",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The White Council meets. Gandalf advises an attack on Dol Guldur, but Saruman prevents this. He begins the search himself on the Gladden Fields, where Isildur fell.",
+    "characters": [
+      "White Council",
+      "Gandalf",
+      "Saruman",
+      "Isildur"
+    ],
+    "locations": [
+      "Dol Guldur",
+      "Gladden Fields"
+    ],
+    "artifacts": [],
+    "type": "council"
+  },
+  {
+    "name": "White Tree withers again",
+    "date": "3A-2852",
+    "range": "2852",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Steward Belecthor II of Gondor dies. The White Tree withers again, this time no sapling is to be found and the dead tree is left standing.",
+    "characters": [
+      "Belecthor II"
+    ],
+    "locations": [
+      "Gondor"
+    ],
+    "artifacts": [
+      "White Tree"
+    ],
+    "type": "death"
+  },
+  {
+    "name": "Haradrim attack Gondor",
+    "date": "3A-2885",
+    "range": "2885",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Haradrim, incited by Sauron's emissaries, cross the river Poros and attack Gondor. The two elder sons of Folcwine, King of Rohan, who had hurried to Gondor's aid, fall in a battle.",
+    "characters": [
+      "Haradrim",
+      "Sauron",
+      "Folcwine"
+    ],
+    "locations": [
+      "Poros",
+      "Gondor",
+      "Rohan"
+    ],
+    "artifacts": [],
+    "type": "military"
+  },
+  {
+    "name": "Bilbo Baggins born",
+    "date": "3A-2890",
+    "range": "2890",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Bilbo Baggins is born in the Shire.",
+    "characters": [
+      "Bilbo Baggins"
+    ],
+    "locations": [
+      "Shire"
+    ],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "Ithilien abandoned, Henneth Annûn established",
+    "date": "3A-2901",
+    "range": "2901",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Ithilien is abandoned by its inhabitants due to the raids of the Uruks, the great fighting Orcs from Mordor. The secret stronghold Henneth Annûn is established.",
+    "characters": [
+      "Uruks"
+    ],
+    "locations": [
+      "Ithilien",
+      "Mordor",
+      "Henneth Annûn"
+    ],
+    "artifacts": [],
+    "type": "abandonment"
+  },
+  {
+    "name": "Gilraen born",
+    "date": "3A-2907",
+    "range": "2907",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Aragorn's mother Gilraen is born.",
+    "characters": [
+      "Gilraen",
+      "Aragorn"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "The Fell Winter",
+    "date": "3A-2911",
+    "range": "2911",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "In the Fell Winter the Baranduin and other rivers freeze and white wolves penetrate into Eriador.",
+    "characters": [
+      "White wolves"
+    ],
+    "locations": [
+      "Baranduin",
+      "Eriador"
+    ],
+    "artifacts": [],
+    "type": "natural disaster"
+  },
+  {
+    "name": "Floods devastate western lands",
+    "date": "3A-2912",
+    "range": "2912",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Enedwaith and Minhiriath are devastated by floods caused by the snowmelt. The city of Tharbad is destroyed and abandoned.",
+    "characters": [],
+    "locations": [
+      "Enedwaith",
+      "Minhiriath",
+      "Tharbad"
+    ],
+    "artifacts": [],
+    "type": "natural disaster"
+  },
+  {
+    "name": "Old Took dies",
+    "date": "3A-2920",
+    "range": "2920",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Old Took dies.",
+    "characters": [
+      "Old Took"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "death"
+  },
+  {
+    "name": "Arathorn marries Gilraen",
+    "date": "3A-2929",
+    "range": "2929",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Arathorn, son of the Dúnedain chieftain Arador, marries Gilraen.",
+    "characters": [
+      "Arathorn",
+      "Arador",
+      "Gilraen"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "marriage"
+  },
+  {
+    "name": "Arador killed, Arathorn II becomes chieftain",
+    "date": "3A-2930",
+    "range": "2930",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Arador is slain by Trolls, Arathorn II becomes new chieftain. Denethor II, son of Steward Ecthelion II, is born in Minas Tirith.",
+    "characters": [
+      "Arador",
+      "Trolls",
+      "Arathorn II",
+      "Denethor II",
+      "Ecthelion II"
+    ],
+    "locations": [
+      "Minas Tirith"
+    ],
+    "artifacts": [],
+    "type": "death"
+  },
+  {
+    "name": "Aragorn born",
+    "date": "3A-2931",
+    "range": "2931",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Aragorn, Arathorn's son, is born.",
+    "characters": [
+      "Aragorn",
+      "Arathorn"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "Arathorn II killed, Aragorn taken to Rivendell",
+    "date": "3A-2933",
+    "range": "2933",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Arathorn II is killed by an Orc-arrow and Gilraen goes with Aragorn to Imladris, where he is adopted by Elrond as foster-son. He is given the name Estel (Hope), his lineage is concealed from him.",
+    "characters": [
+      "Arathorn II",
+      "Gilraen",
+      "Aragorn",
+      "Elrond",
+      "Orcs"
+    ],
+    "locations": [
+      "Imladris"
+    ],
+    "artifacts": [],
+    "type": "adoption"
+  },
+  {
+    "name": "Saruman discovers Sauron's search",
+    "date": "3A-2939",
+    "range": "2939",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Saruman discovers that Sauron's servants are searching the Gladden Fields, which suggests that Sauron knows where Isildur fell. He is concerned but does not inform the White Council.",
+    "characters": [
+      "Saruman",
+      "Sauron",
+      "Isildur",
+      "White Council"
+    ],
+    "locations": [
+      "Gladden Fields"
+    ],
+    "artifacts": [],
+    "type": "discovery"
+  },
+  {
+    "name": "Quest of Erebor, Battle of Five Armies",
+    "date": "3A-2941",
+    "range": "2941",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Thorin Oakenshield and Gandalf visit Bilbo Baggins, who participates as 'master-thief' in the journey to Erebor. Bilbo encounters Gollum and finds the Master Ring. The White Council meets and Saruman votes for attack on Dol Guldur to prevent Sauron's search. Sauron abandons Dol Guldur. After Smaug's death by Bard of Esgaroth the Battle of Five Armies takes place, in which Thorin and his nephews Kíli and Fíli die. Dáin II Ironfoot becomes new King under the Mountain.",
+    "characters": [
+      "Thorin Oakenshield",
+      "Gandalf",
+      "Bilbo Baggins",
+      "Gollum",
+      "White Council",
+      "Saruman",
+      "Sauron",
+      "Smaug",
+      "Bard",
+      "Kíli",
+      "Fíli",
+      "Dáin II Ironfoot"
+    ],
+    "locations": [
+      "Shire",
+      "Erebor",
+      "Dol Guldur",
+      "Esgaroth"
+    ],
+    "artifacts": [
+      "Master Ring",
+      "One Ring"
+    ],
+    "type": "quest"
+  },
+  {
+    "name": "Bilbo returns, Sauron returns to Mordor",
+    "date": "3A-2942",
+    "range": "2942",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Bilbo Baggins returns to the Shire with the One Ring. Sauron secretly returns to Mordor.",
+    "characters": [
+      "Bilbo Baggins",
+      "Sauron"
+    ],
+    "locations": [
+      "Shire",
+      "Mordor"
+    ],
+    "artifacts": [
+      "One Ring"
+    ],
+    "type": "return"
+  },
+  {
+    "name": "Bard rebuilds Dale, Gollum begins search",
+    "date": "3A-2944",
+    "range": "2944",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Bard rebuilds Dale and becomes king. Gollum leaves the Misty Mountains to search for the 'thief' of his ring.",
+    "characters": [
+      "Bard",
+      "Gollum"
+    ],
+    "locations": [
+      "Dale",
+      "Misty Mountains"
+    ],
+    "artifacts": [],
+    "type": "rebuilding"
+  },
+  {
+    "name": "Théoden born",
+    "date": "3A-2948",
+    "range": "2948",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Théoden, son of King Thengel of Rohan, is born.",
+    "characters": [
+      "Théoden",
+      "Thengel"
+    ],
+    "locations": [
+      "Rohan"
+    ],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "Gandalf and Balin visit Bilbo",
+    "date": "3A-2949",
+    "range": "2949",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf and Balin visit Bilbo Baggins in the Shire.",
+    "characters": [
+      "Gandalf",
+      "Balin",
+      "Bilbo Baggins"
+    ],
+    "locations": [
+      "Shire"
+    ],
+    "artifacts": [],
+    "type": "visit"
+  },
+  {
+    "name": "Finduilas born",
+    "date": "3A-2950",
+    "range": "2950",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Finduilas, daughter of Adrahil of Dol Amroth, is born.",
+    "characters": [
+      "Finduilas",
+      "Adrahil"
+    ],
+    "locations": [
+      "Dol Amroth"
+    ],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "Sauron reveals himself, begins Barad-dûr reconstruction",
+    "date": "3A-2951",
+    "range": "2951",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Sauron reveals himself definitively and strengthens his power in Mordor. He begins the reconstruction of Barad-dûr. Gollum sets out on the way to Mordor. Dol Guldur is again taken possession of by three Nazgûl.",
+    "characters": [
+      "Sauron",
+      "Gollum",
+      "Nazgûl"
+    ],
+    "locations": [
+      "Mordor",
+      "Barad-dûr",
+      "Dol Guldur"
+    ],
+    "artifacts": [],
+    "type": "fortification"
+  },
+  {
+    "name": "Last White Council meeting, Saruman takes Isengard",
+    "date": "3A-2953",
+    "range": "2953",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The White Council meets for the last time. Saruman claims that he has learned that the Master Ring has been washed down the Anduin into the sea. He withdraws to Isengard, takes it into his possession and fortifies it. Through spies he has himself informed of all Gandalf's steps and notices his interest in the Shire.",
+    "characters": [
+      "White Council",
+      "Saruman",
+      "Gandalf"
+    ],
+    "locations": [
+      "Isengard",
+      "Anduin",
+      "Shire"
+    ],
+    "artifacts": [
+      "Master Ring"
+    ],
+    "type": "betrayal"
+  },
+  {
+    "name": "Mount Doom fires again",
+    "date": "3A-2954",
+    "range": "2954",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Mount Doom spits fire again and Ithilien's last inhabitants leave the land.",
+    "characters": [],
+    "locations": [
+      "Mount Doom",
+      "Ithilien"
+    ],
+    "artifacts": [],
+    "type": "volcanic activity"
+  },
+  {
+    "name": "Aragorn meets Gandalf",
+    "date": "3A-2956",
+    "range": "2956",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Aragorn encounters Gandalf and befriends him.",
+    "characters": [
+      "Aragorn",
+      "Gandalf"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "meeting"
+  },
+  {
+    "name": "Aragorn's great journeys as Thorongil",
+    "date": "3A-2957",
+    "range": "2957–80",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Aragorn undertakes his great journeys and serves under the name Thorongil both Thengel, King of Rohan, as well as Ecthelion II, Steward of Gondor.",
+    "characters": [
+      "Aragorn",
+      "Thorongil",
+      "Thengel",
+      "Ecthelion II"
+    ],
+    "locations": [
+      "Rohan",
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "service"
+  },
+  {
+    "name": "Frodo Baggins born",
+    "date": "3A-2968",
+    "range": "2968",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Frodo Baggins is born.",
+    "characters": [
+      "Frodo Baggins"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "Denethor marries Finduilas",
+    "date": "3A-2976",
+    "range": "2976",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Denethor marries Finduilas of Dol Amroth.",
+    "characters": [
+      "Denethor",
+      "Finduilas"
+    ],
+    "locations": [
+      "Dol Amroth"
+    ],
+    "artifacts": [],
+    "type": "marriage"
+  },
+  {
+    "name": "Bain becomes King of Dale",
+    "date": "3A-2977",
+    "range": "2977",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Bain, Bard's son, becomes King of Dale.",
+    "characters": [
+      "Bain",
+      "Bard"
+    ],
+    "locations": [
+      "Dale"
+    ],
+    "artifacts": [],
+    "type": "succession"
+  },
+  {
+    "name": "Boromir and Théodred born",
+    "date": "3A-2978",
+    "range": "2978",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Boromir, Denethor's son, is born. Théodred, Théoden's son, is born.",
+    "characters": [
+      "Boromir",
+      "Denethor",
+      "Théodred",
+      "Théoden"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "Aragorn and Arwen betrothal, Théoden becomes king",
+    "date": "3A-2980",
+    "range": "2980",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Aragorn enters Lothlórien and meets Arwen again. He gives her Barahir's Ring and the couple become betrothed on Cerin Amroth. In the same year Gollum meets Shelob at the border of Mordor and Théoden becomes King of Rohan. Samwise Gamgee sees the light of the world in the Shire.",
+    "characters": [
+      "Aragorn",
+      "Arwen",
+      "Gollum",
+      "Shelob",
+      "Théoden",
+      "Samwise Gamgee"
+    ],
+    "locations": [
+      "Lothlórien",
+      "Cerin Amroth",
+      "Mordor",
+      "Rohan",
+      "Shire"
+    ],
+    "artifacts": [
+      "Barahir's Ring"
+    ],
+    "type": "betrothal"
+  },
+  {
+    "name": "Meriadoc Brandybuck born",
+    "date": "3A-2982",
+    "range": "2982",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Meriadoc Brandybuck is born.",
+    "characters": [
+      "Meriadoc Brandybuck"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "Faramir born",
+    "date": "3A-2983",
+    "range": "2983",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Faramir, Denethor's second son, is born.",
+    "characters": [
+      "Faramir",
+      "Denethor"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "Denethor II becomes Steward",
+    "date": "3A-2984",
+    "range": "2984",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Steward Ecthelion II of Gondor dies, his son Denethor II becomes his successor.",
+    "characters": [
+      "Ecthelion II",
+      "Denethor II"
+    ],
+    "locations": [
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "succession"
+  },
+  {
+    "name": "Finduilas dies",
+    "date": "3A-2988",
+    "range": "2988",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Finduilas, Denethor's wife, dies young.",
+    "characters": [
+      "Finduilas",
+      "Denethor"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "death"
+  },
+  {
+    "name": "Balin sets out for Moria",
+    "date": "3A-2989",
+    "range": "2989",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Balin sets out from the Erebor to Moria.",
+    "characters": [
+      "Balin"
+    ],
+    "locations": [
+      "Erebor",
+      "Moria"
+    ],
+    "artifacts": [],
+    "type": "journey"
+  },
+  {
+    "name": "Peregrin Took born",
+    "date": "3A-2990",
+    "range": "2990",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Peregrin Took is born.",
+    "characters": [
+      "Peregrin Took"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "Éomer born",
+    "date": "3A-2991",
+    "range": "2991",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Éomer, Éomund's son, is born.",
+    "characters": [
+      "Éomer",
+      "Éomund"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "Balin dies, Moria settlement destroyed",
+    "date": "3A-2994",
+    "range": "2994",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Balin dies, the Dwarves' settlement in Moria is destroyed.",
+    "characters": [
+      "Balin",
+      "Dwarves"
+    ],
+    "locations": [
+      "Moria"
+    ],
+    "artifacts": [],
+    "type": "death"
+  },
+  {
+    "name": "Éowyn born",
+    "date": "3A-2995",
+    "range": "2995",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Éowyn, Éomer's sister, is born.",
+    "characters": [
+      "Éowyn",
+      "Éomer"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "Saruman uses Orthanc Palantír, becomes traitor",
+    "date": "3A-3000",
+    "range": "ca. 3000",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Saruman uses the Palantír of Orthanc and is deceived by Sauron, who is in possession of the Stone of Minas Ithil. He finally becomes a traitor. From his spies he learns that the Rangers of the North sharply guard the Shire.",
+    "characters": [
+      "Saruman",
+      "Sauron",
+      "Rangers"
+    ],
+    "locations": [
+      "Orthanc",
+      "Minas Ithil",
+      "Shire"
+    ],
+    "artifacts": [
+      "Palantír",
+      "Stone of Minas Ithil"
+    ],
+    "type": "corruption"
+  },
+  {
+    "name": "Bilbo's farewell party",
+    "date": "3A-3001",
+    "range": "3001",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Bilbo Baggins celebrates a great party on the occasion of his 'eleventy-first' (111th) birthday, at which he suddenly disappears to the surprise of the guests present thanks to his ring, to turn his back on the Shire and go wandering once more. Frodo becomes the new master of Bag End. Gandalf suspects that Bilbo's ring could be the One Ring, the watches around the Shire are doubled. He begins to search for Gollum and asks Aragorn for his help.",
+    "characters": [
+      "Bilbo Baggins",
+      "Frodo",
+      "Gandalf",
+      "Gollum",
+      "Aragorn"
+    ],
+    "locations": [
+      "Shire",
+      "Bag End"
+    ],
+    "artifacts": [
+      "One Ring"
+    ],
+    "type": "farewell"
+  },
+  {
+    "name": "Bilbo settles in Rivendell",
+    "date": "3A-3002",
+    "range": "3002",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Bilbo settles in Rivendell.",
+    "characters": [
+      "Bilbo Baggins"
+    ],
+    "locations": [
+      "Rivendell"
+    ],
+    "artifacts": [],
+    "type": "settlement"
+  },
+  {
+    "name": "Gandalf visits Frodo regularly",
+    "date": "3A-3004",
+    "range": "3004",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf visits Frodo in Bag End and also comes by from time to time in the next four years.",
+    "characters": [
+      "Gandalf",
+      "Frodo"
+    ],
+    "locations": [
+      "Bag End"
+    ],
+    "artifacts": [],
+    "type": "visitation"
+  },
+  {
+    "name": "Brand becomes King of Dale, Gilraen dies",
+    "date": "3A-3007",
+    "range": "3007",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Brand, Bain's son, becomes new King in Dale. Aragorn's mother Gilraen dies.",
+    "characters": [
+      "Brand",
+      "Bain",
+      "Gilraen",
+      "Aragorn"
+    ],
+    "locations": [
+      "Dale"
+    ],
+    "artifacts": [],
+    "type": "succession"
+  },
+  {
+    "name": "Gandalf's last visit to Frodo for years",
+    "date": "3A-3008",
+    "range": "3008",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "In autumn Gandalf visits Frodo for the last time for now.",
+    "characters": [
+      "Gandalf",
+      "Frodo"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "farewell"
+  },
+  {
+    "name": "Hunt for Gollum, Arwen returns to Rivendell",
+    "date": "3A-3009",
+    "range": "3009",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf and Aragorn occasionally hunt for Gollum again in the course of the next eight years in the Anduin vales, in Mirkwood and in Rhovanion up to the borders of Mordor. Sometime during this time Gollum dares to go into Mordor and is taken captive. Since the Misty Mountains and Wilderland become ever more dangerous and unsafe, Elrond sends for Arwen, who still lives in Lórien with her grandmother Galadriel, and she returns to Rivendell.",
+    "characters": [
+      "Gandalf",
+      "Aragorn",
+      "Gollum",
+      "Elrond",
+      "Arwen",
+      "Galadriel"
+    ],
+    "locations": [
+      "Anduin",
+      "Mirkwood",
+      "Rhovanion",
+      "Mordor",
+      "Misty Mountains",
+      "Wilderland",
+      "Lórien",
+      "Rivendell"
+    ],
+    "artifacts": [],
+    "type": "hunt"
+  },
+  {
+    "name": "Gollum captured by Aragorn, Gandalf reads Isildur's scroll",
+    "date": "3A-3017",
+    "range": "3017",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gollum is released from Mordor and a little later picked up by Aragorn in the Dead Marshes. He brings him to King Thranduil in Mirkwood, where he is guarded by the Wood-elves. Gandalf visits Minas Tirith and reads Isildur's scroll.",
+    "characters": [
+      "Gollum",
+      "Aragorn",
+      "Thranduil",
+      "Wood-elves",
+      "Gandalf",
+      "Isildur"
+    ],
+    "locations": [
+      "Mordor",
+      "Dead Marshes",
+      "Mirkwood",
+      "Minas Tirith"
+    ],
+    "artifacts": [
+      "Isildur's scroll"
+    ],
+    "type": "capture"
+  },
+  {
+    "name": "Gandalf arrives in Hobbiton",
+    "date": "3A-3018-04-12",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf comes to Hobbiton.",
+    "characters": [
+      "Gandalf"
+    ],
+    "locations": [
+      "Hobbiton"
+    ],
+    "artifacts": [],
+    "type": "arrival"
+  },
+  {
+    "name": "The Shadow of the Past",
+    "date": "3A-3018-04-13",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Shadow of the Past. Gandalf tells Frodo the history of the Ring. He makes sure that Frodo's ring is the One. Sam becomes a confidant.",
+    "characters": [
+      "Gandalf",
+      "Frodo",
+      "Sam"
+    ],
+    "locations": [],
+    "artifacts": [
+      "One Ring"
+    ],
+    "type": "revelation"
+  },
+  {
+    "name": "Gandalf prepares Frodo",
+    "date": "3A-3018-04-13",
+    "range": "April to June",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf remains in the Shire and prepares Frodo for his mission. At the end of June he departs for the south, but wants to be back by Frodo's birthday at the latest.",
+    "characters": [
+      "Gandalf",
+      "Frodo"
+    ],
+    "locations": [
+      "Shire"
+    ],
+    "artifacts": [],
+    "type": "preparation"
+  },
+  {
+    "name": "Attack on Osgiliath, Gollum escapes",
+    "date": "3A-3018-06-20",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Sauron attacks Osgiliath; Thranduil is also attacked, and Gollum can escape.",
+    "characters": [
+      "Sauron",
+      "Thranduil",
+      "Gollum"
+    ],
+    "locations": [
+      "Osgiliath"
+    ],
+    "artifacts": [],
+    "type": "attack"
+  },
+  {
+    "name": "Boromir sets out for Rivendell",
+    "date": "3A-3018-07-04",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Boromir sets out from Minas Tirith on the way to Imladris.",
+    "characters": [
+      "Boromir"
+    ],
+    "locations": [
+      "Minas Tirith",
+      "Imladris"
+    ],
+    "artifacts": [],
+    "type": "journey"
+  },
+  {
+    "name": "Gandalf imprisoned in Orthanc",
+    "date": "3A-3018-07-10",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf comes to Isengard and is imprisoned in Orthanc.",
+    "characters": [
+      "Gandalf"
+    ],
+    "locations": [
+      "Isengard",
+      "Orthanc"
+    ],
+    "artifacts": [],
+    "type": "imprisonment"
+  },
+  {
+    "name": "Gollum loses traces, Frodo sells Bag End",
+    "date": "3A-3018-08",
+    "range": "August",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "All traces of Gollum are lost. It is believed that at this time, since he is hunted both by the Elves and by Sauron's servants, he sought refuge in Moria; but when he finally discovered the way to the West-gate, he could not get out. Frodo sells Bag End to Lobelia.",
+    "characters": [
+      "Gollum",
+      "Elves",
+      "Sauron",
+      "Frodo",
+      "Lobelia"
+    ],
+    "locations": [
+      "Moria",
+      "Bag End"
+    ],
+    "artifacts": [],
+    "type": "disappearance"
+  },
+  {
+    "name": "Gandalf escapes Orthanc",
+    "date": "3A-3018-09-18",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "In the early morning hours Gandalf escapes from Orthanc. The Nazgûl cross the Fords of Isen.",
+    "characters": [
+      "Gandalf",
+      "Nazgûl"
+    ],
+    "locations": [
+      "Orthanc",
+      "Isen"
+    ],
+    "artifacts": [],
+    "type": "escape"
+  },
+  {
+    "name": "Gandalf refused at Edoras",
+    "date": "3A-3018-09-19",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf comes as a beggar to Edoras; he is refused entry.",
+    "characters": [
+      "Gandalf"
+    ],
+    "locations": [
+      "Edoras"
+    ],
+    "artifacts": [],
+    "type": "refusal"
+  },
+  {
+    "name": "Gandalf gains entry to Edoras",
+    "date": "3A-3018-09-20",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf gains admittance to Edoras. Théoden commands him to leave: 'Take any horse, but be gone before tomorrow!'",
+    "characters": [
+      "Gandalf",
+      "Théoden"
+    ],
+    "locations": [
+      "Edoras"
+    ],
+    "artifacts": [],
+    "type": "banishment"
+  },
+  {
+    "name": "Gandalf encounters Shadowfax",
+    "date": "3A-3018-09-21",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf encounters Shadowfax, but the animal will not let him approach. He follows Shadowfax over the plain. In the Shire Frodo waits in vain for Gandalf.",
+    "characters": [
+      "Gandalf",
+      "Shadowfax",
+      "Frodo"
+    ],
+    "locations": [
+      "Shire"
+    ],
+    "artifacts": [],
+    "type": "encounter"
+  },
+  {
+    "name": "Nazgûl reach Sarn Ford",
+    "date": "3A-3018-09-22",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "In the evening the Nazgûl reach the Sarn Ford and drive away the watch of the Rangers of the North. Gandalf catches up with Shadowfax. Frodo's birthday.",
+    "characters": [
+      "Nazgûl",
+      "Rangers",
+      "Gandalf",
+      "Shadowfax",
+      "Frodo"
+    ],
+    "locations": [
+      "Sarn Ford"
+    ],
+    "artifacts": [],
+    "type": "attack"
+  },
+  {
+    "name": "Four Nazgûl reach Shire",
+    "date": "3A-3018-09-23",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Four Nazgûl reach the Shire before dawn. The others pursue the Rangers eastward and then come back to watch the Greenway. In the morning Merry and Dick Bolger depart with a cart for Crickhollow. In the evening Frodo, Sam and Pippin leave Bag End. A Black Rider comes to Hobbiton at nightfall. Gandalf has tamed Shadowfax and rides from Rohan.",
+    "characters": [
+      "Nazgûl",
+      "Rangers",
+      "Merry",
+      "Dick Bolger",
+      "Frodo",
+      "Sam",
+      "Pippin",
+      "Gandalf",
+      "Shadowfax"
+    ],
+    "locations": [
+      "Shire",
+      "Greenway",
+      "Crickhollow",
+      "Bag End",
+      "Hobbiton",
+      "Rohan"
+    ],
+    "artifacts": [],
+    "type": "departure"
+  },
+  {
+    "name": "Hobbits encounter Black Rider",
+    "date": "3A-3018-09-24",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Frodo, Sam and Pippin encounter a Black Rider but remain undetected. In the evening they meet Elves and spend the night under their protection. Gandalf crosses the Isen.",
+    "characters": [
+      "Frodo",
+      "Sam",
+      "Pippin",
+      "Black Rider",
+      "Elves",
+      "Gandalf"
+    ],
+    "locations": [
+      "Isen"
+    ],
+    "artifacts": [],
+    "type": "encounter"
+  },
+  {
+    "name": "Ferry escape from Nazgûl",
+    "date": "3A-3018-09-25",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Hobbits come to Farmer Maggot and meet Merry. At the ferry they escape a Nazgûl and reach Crickhollow in the evening.",
+    "characters": [
+      "Frodo",
+      "Sam",
+      "Pippin",
+      "Farmer Maggot",
+      "Merry",
+      "Nazgûl"
+    ],
+    "locations": [
+      "Crickhollow"
+    ],
+    "artifacts": [],
+    "type": "escape"
+  },
+  {
+    "name": "Old Forest, Tom Bombadil",
+    "date": "3A-3018-09-26",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Hobbits get lost in the Old Forest and meet Tom Bombadil. He saves them from Old Man Willow and they spend the night in his house.",
+    "characters": [
+      "Hobbits",
+      "Tom Bombadil",
+      "Old Man Willow"
+    ],
+    "locations": [
+      "Old Forest"
+    ],
+    "artifacts": [],
+    "type": "rescue"
+  },
+  {
+    "name": "Second night with Tom Bombadil",
+    "date": "3A-3018-09-27",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Second overnight stay of the Hobbits with Tom Bombadil. Gandalf crosses the Greyflood.",
+    "characters": [
+      "Hobbits",
+      "Tom Bombadil",
+      "Gandalf"
+    ],
+    "locations": [
+      "Greyflood"
+    ],
+    "artifacts": [],
+    "type": "stay"
+  },
+  {
+    "name": "Barrow-wight encounter",
+    "date": "3A-3018-09-28",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Hobbits are captured by a Barrow-wight on the Barrow-downs and again saved by Bombadil. Gandalf reaches Sarn Ford.",
+    "characters": [
+      "Hobbits",
+      "Barrow-wight",
+      "Tom Bombadil",
+      "Gandalf"
+    ],
+    "locations": [
+      "Barrow-downs",
+      "Sarn Ford"
+    ],
+    "artifacts": [],
+    "type": "rescue"
+  },
+  {
+    "name": "Arrival in Bree",
+    "date": "3A-3018-09-29",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Hobbits come to Bree late in the evening. Gandalf reaches the Shire and visits the Gaffer.",
+    "characters": [
+      "Hobbits",
+      "Gandalf",
+      "Gaffer"
+    ],
+    "locations": [
+      "Bree",
+      "Shire"
+    ],
+    "artifacts": [],
+    "type": "arrival"
+  },
+  {
+    "name": "Black Rider raids, meeting Aragorn",
+    "date": "3A-3018-09-30",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Crickhollow and the inn in Bree are raided by Black Riders in the early morning hours. The Hobbits leave Bree with Aragorn. Gandalf comes to Crickhollow, rides on and reaches Bree at night.",
+    "characters": [
+      "Black Riders",
+      "Hobbits",
+      "Aragorn",
+      "Gandalf"
+    ],
+    "locations": [
+      "Crickhollow",
+      "Bree"
+    ],
+    "artifacts": [],
+    "type": "raid"
+  },
+  {
+    "name": "Gandalf searches for Frodo",
+    "date": "3A-3018-10-01",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf leaves Bree to find Frodo.",
+    "characters": [
+      "Gandalf",
+      "Frodo"
+    ],
+    "locations": [
+      "Bree"
+    ],
+    "artifacts": [],
+    "type": "search"
+  },
+  {
+    "name": "Attack on Weathertop",
+    "date": "3A-3018-10-03",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "He is attacked at night on the summit of Weathertop. From their camp at the Midgewater Marshes Frodo and Aragorn observe flashes of light in the eastern sky.",
+    "characters": [
+      "Gandalf",
+      "Frodo",
+      "Aragorn"
+    ],
+    "locations": [
+      "Weathertop",
+      "Midgewater Marshes"
+    ],
+    "artifacts": [],
+    "type": "attack"
+  },
+  {
+    "name": "Frodo wounded at Weathertop",
+    "date": "3A-3018-10-06",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Aragorn and the Hobbits reach Weathertop and camp at the northern foot. At night they are attacked by 5 Nazgûl and Frodo is wounded.",
+    "characters": [
+      "Aragorn",
+      "Hobbits",
+      "Nazgûl",
+      "Frodo"
+    ],
+    "locations": [
+      "Weathertop"
+    ],
+    "artifacts": [],
+    "type": "wounding"
+  },
+  {
+    "name": "Glorfindel leaves Rivendell",
+    "date": "3A-3018-10-09",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Glorfindel leaves Imladris.",
+    "characters": [
+      "Glorfindel"
+    ],
+    "locations": [
+      "Imladris"
+    ],
+    "artifacts": [],
+    "type": "departure"
+  },
+  {
+    "name": "Glorfindel drives off Black Riders",
+    "date": "3A-3018-10-11",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "He drives three Black Riders from the Bridge of Mitheithel.",
+    "characters": [
+      "Glorfindel",
+      "Black Riders"
+    ],
+    "locations": [
+      "Bridge of Mitheithel"
+    ],
+    "artifacts": [],
+    "type": "battle"
+  },
+  {
+    "name": "Crossing the bridge",
+    "date": "3A-3018-10-13",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Aragorn and the Hobbits cross the bridge.",
+    "characters": [
+      "Aragorn",
+      "Hobbits"
+    ],
+    "locations": [
+      "Bridge of Mitheithel"
+    ],
+    "artifacts": [],
+    "type": "crossing"
+  },
+  {
+    "name": "Glorfindel meets Hobbits",
+    "date": "3A-3018-10-18",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Glorfindel meets the Hobbits at dusk. Gandalf reaches Rivendell.",
+    "characters": [
+      "Glorfindel",
+      "Hobbits",
+      "Gandalf"
+    ],
+    "locations": [
+      "Rivendell"
+    ],
+    "artifacts": [],
+    "type": "meeting"
+  },
+  {
+    "name": "Flight over Ford of Bruinen",
+    "date": "3A-3018-10-20",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Flight over the Ford of Bruinen. The Nazgûl are swept away by a flood wave.",
+    "characters": [
+      "Nazgûl"
+    ],
+    "locations": [
+      "Ford of Bruinen"
+    ],
+    "artifacts": [],
+    "type": "flight"
+  },
+  {
+    "name": "Frodo awakens, Boromir arrives",
+    "date": "3A-3018-10-24",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Frodo awakens in Elrond's house. Boromir arrives in Imladris at night.",
+    "characters": [
+      "Frodo",
+      "Elrond",
+      "Boromir"
+    ],
+    "locations": [
+      "Imladris"
+    ],
+    "artifacts": [],
+    "type": "awakening"
+  },
+  {
+    "name": "Council of Elrond",
+    "date": "3A-3018-10-25",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Council of Elrond.",
+    "characters": [
+      "Elrond"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "council"
+  },
+  {
+    "name": "Fellowship departs Rivendell",
+    "date": "3A-3018-12-25",
+    "range": "3018",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "At dusk the nine companions depart from Imladris.",
+    "characters": [
+      "Fellowship"
+    ],
+    "locations": [
+      "Imladris"
+    ],
+    "artifacts": [],
+    "type": "departure"
+  },
+  {
+    "name": "Fellowship reaches Hollin",
+    "date": "3A-3019-01-08",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The companions reach Hollin.",
+    "characters": [
+      "Fellowship"
+    ],
+    "locations": [
+      "Hollin"
+    ],
+    "artifacts": [],
+    "type": "arrival"
+  },
+  {
+    "name": "Snowstorm on Redhorn Pass",
+    "date": "3A-3019-01-11",
+    "range": "January 11 & 12",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Snowstorm on the Redhorn Pass.",
+    "characters": [
+      "Fellowship"
+    ],
+    "locations": [
+      "Redhorn Pass"
+    ],
+    "artifacts": [],
+    "type": "weather"
+  },
+  {
+    "name": "Wolf attack, reach West-gate of Moria",
+    "date": "3A-3019-01-13",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Wolf attack at dawn. At nightfall the companions reach the West-gate of Moria. Gollum begins following the Ring-bearer.",
+    "characters": [
+      "Fellowship",
+      "Wolves",
+      "Gollum"
+    ],
+    "locations": [
+      "Moria",
+      "West-gate"
+    ],
+    "artifacts": [],
+    "type": "attack"
+  },
+  {
+    "name": "Night in Twenty-first Hall",
+    "date": "3A-3019-01-14",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Night in the Twenty-first Hall.",
+    "characters": [
+      "Fellowship"
+    ],
+    "locations": [
+      "Twenty-first Hall"
+    ],
+    "artifacts": [],
+    "type": "rest"
+  },
+  {
+    "name": "Bridge of Khazad-dûm, Gandalf's fall",
+    "date": "3A-3019-01-15",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Bridge of Khazad-dûm and Gandalf's fall. Late at night the companions reach the River Nimrodel.",
+    "characters": [
+      "Gandalf",
+      "Fellowship",
+      "Balrog"
+    ],
+    "locations": [
+      "Bridge of Khazad-dûm",
+      "River Nimrodel"
+    ],
+    "artifacts": [],
+    "type": "sacrifice"
+  },
+  {
+    "name": "Arrival in Caras Galadhon",
+    "date": "3A-3019-01-17",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Arrival of the companions in Caras Galadhon in the evening hours.",
+    "characters": [
+      "Fellowship"
+    ],
+    "locations": [
+      "Caras Galadhon"
+    ],
+    "artifacts": [],
+    "type": "arrival"
+  },
+  {
+    "name": "Gandalf pursues Balrog to Zirakzigil",
+    "date": "3A-3019-01-23",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf pursues the Balrog to the peak of Zirakzigil.",
+    "characters": [
+      "Gandalf",
+      "Balrog"
+    ],
+    "locations": [
+      "Zirakzigil"
+    ],
+    "artifacts": [],
+    "type": "pursuit"
+  },
+  {
+    "name": "Gandalf casts down Balrog and dies",
+    "date": "3A-3019-01-25",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "He casts down the Balrog and dies. His body lies on the Silvertine.",
+    "characters": [
+      "Gandalf",
+      "Balrog"
+    ],
+    "locations": [
+      "Silvertine"
+    ],
+    "artifacts": [],
+    "type": "death"
+  },
+  {
+    "name": "Galadriel's Mirror, Gandalf returns to life",
+    "date": "3A-3019-02-14",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Galadriel's Mirror. Gandalf returns to life but remains unconscious.",
+    "characters": [
+      "Galadriel",
+      "Gandalf"
+    ],
+    "locations": [],
+    "artifacts": [
+      "Galadriel's Mirror"
+    ],
+    "type": "vision"
+  },
+  {
+    "name": "Farewell to Lórien",
+    "date": "3A-3019-02-16",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Farewell to Lórien. From his hiding place on the west bank of the Anduin Gollum watches the departure.",
+    "characters": [
+      "Fellowship",
+      "Gollum"
+    ],
+    "locations": [
+      "Lórien",
+      "Anduin"
+    ],
+    "artifacts": [],
+    "type": "farewell"
+  },
+  {
+    "name": "Gwaihir carries Gandalf to Lórien",
+    "date": "3A-3019-02-17",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gwaihir carries Gandalf to Lórien.",
+    "characters": [
+      "Gwaihir",
+      "Gandalf"
+    ],
+    "locations": [
+      "Lórien"
+    ],
+    "artifacts": [],
+    "type": "rescue"
+  },
+  {
+    "name": "Boats attacked at Sarn Gebir",
+    "date": "3A-3019-02-23",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The boats are attacked at night near Sarn Gebir.",
+    "characters": [
+      "Fellowship"
+    ],
+    "locations": [
+      "Sarn Gebir"
+    ],
+    "artifacts": [],
+    "type": "attack"
+  },
+  {
+    "name": "Argonath, First Battle at Isen Fords",
+    "date": "3A-3019-02-25",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The companions pass the Argonath and camp at Parth Galen. First Battle at the Fords of Isen; Théodred, Théoden's son, is slain.",
+    "characters": [
+      "Fellowship",
+      "Théodred",
+      "Théoden"
+    ],
+    "locations": [
+      "Argonath",
+      "Parth Galen",
+      "Fords of Isen"
+    ],
+    "artifacts": [],
+    "type": "battle"
+  },
+  {
+    "name": "Breaking of Fellowship",
+    "date": "3A-3019-02-26",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Breaking of the Fellowship. Boromir's death; his horn is heard in Minas Tirith. Meriadoc and Peregrin are captured by the Uruk-hai. Frodo and Samwise enter the eastern Emyn Muil. In the evening Aragorn takes up pursuit of the Orcs. Éomer receives news of the descent of the Orc-horde from the Emyn Muil.",
+    "characters": [
+      "Fellowship",
+      "Boromir",
+      "Meriadoc",
+      "Peregrin",
+      "Uruk-hai",
+      "Frodo",
+      "Samwise",
+      "Aragorn",
+      "Éomer"
+    ],
+    "locations": [
+      "Minas Tirith",
+      "Emyn Muil"
+    ],
+    "artifacts": [
+      "Boromir's horn"
+    ],
+    "type": "breaking"
+  },
+  {
+    "name": "Aragorn reaches Emyn Muil",
+    "date": "3A-3019-02-27",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Aragorn reaches the western edge of the Emyn Muil at sunrise. About midnight Éomer leaves Eastfold against Théoden's command to pursue the Orcs.",
+    "characters": [
+      "Aragorn",
+      "Éomer",
+      "Théoden",
+      "Orcs"
+    ],
+    "locations": [
+      "Emyn Muil",
+      "Eastfold"
+    ],
+    "artifacts": [],
+    "type": "pursuit"
+  },
+  {
+    "name": "Éomer finds Orcs at Fangorn",
+    "date": "3A-3019-02-28",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Éomer finds the Orcs at the forest edge of Fangorn.",
+    "characters": [
+      "Éomer",
+      "Orcs"
+    ],
+    "locations": [
+      "Fangorn"
+    ],
+    "artifacts": [],
+    "type": "discovery"
+  },
+  {
+    "name": "Hobbits escape, meet Treebeard",
+    "date": "3A-3019-02-29",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Meriadoc and Pippin escape and encounter Treebeard. At sunrise the Rohirrim attack and kill the Orcs. Frodo descends from the Emyn Muil and meets Gollum. Faramir sees the boat in which Boromir was laid to rest.",
+    "characters": [
+      "Meriadoc",
+      "Pippin",
+      "Treebeard",
+      "Rohirrim",
+      "Orcs",
+      "Frodo",
+      "Gollum",
+      "Faramir",
+      "Boromir"
+    ],
+    "locations": [
+      "Emyn Muil"
+    ],
+    "artifacts": [],
+    "type": "escape"
+  },
+  {
+    "name": "Entmoot begins, Éomer meets Aragorn",
+    "date": "3A-3019-02-30",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Entmoot begins. On his way back to Edoras Éomer meets Aragorn.",
+    "characters": [
+      "Ents",
+      "Éomer",
+      "Aragorn"
+    ],
+    "locations": [
+      "Edoras"
+    ],
+    "artifacts": [],
+    "type": "meeting"
+  },
+  {
+    "name": "Dead Marshes crossing, Gandalf the White",
+    "date": "3A-3019-03-01",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "At dusk Frodo, Sam and Gollum begin crossing the Dead Marshes. The Entmoot continues. Aragorn, Gimli and Legolas meet Gandalf the White and thereupon depart for Edoras. Faramir leaves Minas Tirith on a mission in Ithilien.",
+    "characters": [
+      "Frodo",
+      "Sam",
+      "Gollum",
+      "Ents",
+      "Aragorn",
+      "Gimli",
+      "Legolas",
+      "Gandalf",
+      "Faramir"
+    ],
+    "locations": [
+      "Dead Marshes",
+      "Edoras",
+      "Minas Tirith",
+      "Ithilien"
+    ],
+    "artifacts": [],
+    "type": "journey"
+  },
+  {
+    "name": "Entmoot ends, Ents attack Isengard",
+    "date": "3A-3019-03-02",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Frodo reaches the end of the marshes. Gandalf reaches Edoras and heals Théoden. The Rohirrim ride westward toward Isengard. Second Battle at the Fords of Isen. Erkenbrand is driven back. In the afternoon the Entmoot ends. The Ents march toward Isengard and reach it at night.",
+    "characters": [
+      "Frodo",
+      "Gandalf",
+      "Théoden",
+      "Rohirrim",
+      "Erkenbrand",
+      "Ents"
+    ],
+    "locations": [
+      "Edoras",
+      "Isengard",
+      "Fords of Isen"
+    ],
+    "artifacts": [],
+    "type": "battle"
+  },
+  {
+    "name": "Battle of Hornburg",
+    "date": "3A-3019-03-03",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Théoden withdraws to Helm's Deep. The Battle of the Hornburg begins. The Ents complete the destruction of Isengard.",
+    "characters": [
+      "Théoden",
+      "Ents"
+    ],
+    "locations": [
+      "Helm's Deep",
+      "Hornburg",
+      "Isengard"
+    ],
+    "artifacts": [],
+    "type": "battle"
+  },
+  {
+    "name": "Théoden and Gandalf ride to Isengard",
+    "date": "3A-3019-03-04",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Théoden and Gandalf ride from Helm's Deep to Isengard. Frodo reaches the slag-hills at the edge of the Desolation before the Morannon.",
+    "characters": [
+      "Théoden",
+      "Gandalf",
+      "Frodo"
+    ],
+    "locations": [
+      "Helm's Deep",
+      "Isengard",
+      "Morannon"
+    ],
+    "artifacts": [],
+    "type": "journey"
+  },
+  {
+    "name": "Conversation with Saruman",
+    "date": "3A-3019-03-05",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "At midday Théoden arrives at Isengard. Conversation with Saruman at Orthanc. A Winged Nazgûl flies over the camp at Dol Baran. Gandalf sets out for Minas Tirith with Pippin. Frodo hides within sight of the Morannon and travels on at dusk.",
+    "characters": [
+      "Théoden",
+      "Saruman",
+      "Winged Nazgûl",
+      "Gandalf",
+      "Pippin",
+      "Frodo"
+    ],
+    "locations": [
+      "Isengard",
+      "Orthanc",
+      "Dol Baran",
+      "Minas Tirith",
+      "Morannon"
+    ],
+    "artifacts": [],
+    "type": "negotiation"
+  },
+  {
+    "name": "Host of West departs, Dúnedain join",
+    "date": "3A-3019-03-06",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "In the early hours the Dúnedain join Aragorn. Théoden rides from the Hornburg to Harrowdale. Aragorn departs later.",
+    "characters": [
+      "Dúnedain",
+      "Aragorn",
+      "Théoden"
+    ],
+    "locations": [
+      "Hornburg",
+      "Harrowdale"
+    ],
+    "artifacts": [],
+    "type": "departure"
+  },
+  {
+    "name": "Frodo brought to Henneth Annûn",
+    "date": "3A-3019-03-07",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Frodo is brought by Faramir to Henneth Annûn. Aragorn reaches Dunharrow at nightfall.",
+    "characters": [
+      "Frodo",
+      "Faramir",
+      "Aragorn"
+    ],
+    "locations": [
+      "Henneth Annûn",
+      "Dunharrow"
+    ],
+    "artifacts": [],
+    "type": "capture"
+  },
+  {
+    "name": "Paths of the Dead",
+    "date": "3A-3019-03-08",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "At daybreak Aragorn takes the Paths of the Dead; at midnight he reaches the Stone of Erech. Frodo leaves Henneth Annûn.",
+    "characters": [
+      "Aragorn",
+      "Frodo"
+    ],
+    "locations": [
+      "Paths of the Dead",
+      "Stone of Erech",
+      "Henneth Annûn"
+    ],
+    "artifacts": [],
+    "type": "journey"
+  },
+  {
+    "name": "Gandalf reaches Minas Tirith, Darkness spreads",
+    "date": "3A-3019-03-09",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf reaches Minas Tirith. Faramir leaves Henneth Annûn. Aragorn departs from Erech and goes to Calembel. At dusk Frodo reaches the Morgul Road. Théoden's arrival at Dunharrow. Darkness flows from Mordor and spreads.",
+    "characters": [
+      "Gandalf",
+      "Faramir",
+      "Aragorn",
+      "Frodo",
+      "Théoden"
+    ],
+    "locations": [
+      "Minas Tirith",
+      "Henneth Annûn",
+      "Erech",
+      "Calembel",
+      "Morgul Road",
+      "Dunharrow",
+      "Mordor"
+    ],
+    "artifacts": [],
+    "type": "arrival"
+  },
+  {
+    "name": "The Dawnless Day",
+    "date": "3A-3019-03-10",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Dawnless Day. The Muster of Rohan: the Rohirrim leave Harrowdale. Faramir is rescued at the gates of Minas Tirith by Gandalf. Aragorn crosses the Ringló. An army from the garrisons at the Morannon occupies Cair Andros and penetrates into Anórien. Frodo leaves the Cross-roads behind and sees the sortie of the Morgul-host.",
+    "characters": [
+      "Rohirrim",
+      "Faramir",
+      "Gandalf",
+      "Aragorn",
+      "Frodo"
+    ],
+    "locations": [
+      "Harrowdale",
+      "Minas Tirith",
+      "Ringló",
+      "Morannon",
+      "Cair Andros",
+      "Anórien",
+      "Cross-roads"
+    ],
+    "artifacts": [],
+    "type": "muster"
+  },
+  {
+    "name": "Gollum meets Shelob",
+    "date": "3A-3019-03-11",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gollum meets Shelob but almost repents when he sees the sleeping Frodo. Denethor sends Faramir to Osgiliath. Aragorn reaches Linhir and enters Lebennin. East-Rohan is attacked from the north. First assault on Lórien.",
+    "characters": [
+      "Gollum",
+      "Shelob",
+      "Frodo",
+      "Denethor",
+      "Faramir",
+      "Aragorn"
+    ],
+    "locations": [
+      "Osgiliath",
+      "Linhir",
+      "Lebennin",
+      "East-Rohan",
+      "Lórien"
+    ],
+    "artifacts": [],
+    "type": "encounter"
+  },
+  {
+    "name": "Shelob's tunnel",
+    "date": "3A-3019-03-12",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gollum leads Frodo into Shelob's tunnel. Faramir withdraws to the fortifications of the Causeway. Théoden camps under Min-Rimmon. Aragorn drives the enemy to Pelargir. The Ents defeat the invaders of Rohan.",
+    "characters": [
+      "Gollum",
+      "Frodo",
+      "Shelob",
+      "Faramir",
+      "Théoden",
+      "Aragorn",
+      "Ents"
+    ],
+    "locations": [
+      "Shelob's tunnel",
+      "Causeway",
+      "Min-Rimmon",
+      "Pelargir",
+      "Rohan"
+    ],
+    "artifacts": [],
+    "type": "betrayal"
+  },
+  {
+    "name": "Frodo captured at Cirith Ungol",
+    "date": "3A-3019-03-13",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Frodo is captured by the Orcs of Cirith Ungol. The Pelennor is taken. Faramir is wounded. Aragorn reaches Pelargir and captures the fleet. Théoden rides through the Drúadan Forest.",
+    "characters": [
+      "Frodo",
+      "Orcs",
+      "Faramir",
+      "Aragorn",
+      "Théoden"
+    ],
+    "locations": [
+      "Cirith Ungol",
+      "Pelennor",
+      "Pelargir",
+      "Drúadan Forest"
+    ],
+    "artifacts": [],
+    "type": "capture"
+  },
+  {
+    "name": "Sam finds Frodo",
+    "date": "3A-3019-03-14",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Samwise finds Frodo in the Tower of Cirith Ungol. Minas Tirith is besieged. Led by the Wild Men the Rohirrim reach the Grey Wood.",
+    "characters": [
+      "Samwise",
+      "Frodo",
+      "Wild Men",
+      "Rohirrim"
+    ],
+    "locations": [
+      "Tower of Cirith Ungol",
+      "Minas Tirith",
+      "Grey Wood"
+    ],
+    "artifacts": [],
+    "type": "rescue"
+  },
+  {
+    "name": "Battle of Pelennor Fields",
+    "date": "3A-3019-03-15",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "In the hour before dawn the Witch-king breaks the Gate of the City. Denethor burns himself on a pyre. At the first cockcrow the horns of the Rohirrim sound. Battle of the Pelennor Fields. Théoden is slain. Aragorn raises Arwen's standard. The Lord of the Nazgûl falls. Frodo and Samwise make their way north along the Morgai. Battle under the trees in Mirkwood; Thranduil drives back Dol Guldur's forces. Second assault on Lórien.",
+    "characters": [
+      "Witch-king",
+      "Denethor",
+      "Rohirrim",
+      "Théoden",
+      "Aragorn",
+      "Arwen",
+      "Nazgûl",
+      "Frodo",
+      "Samwise",
+      "Thranduil"
+    ],
+    "locations": [
+      "Gate of the City",
+      "Pelennor Fields",
+      "Morgai",
+      "Mirkwood",
+      "Dol Guldur",
+      "Lórien"
+    ],
+    "artifacts": [
+      "Arwen's standard"
+    ],
+    "type": "battle"
+  },
+  {
+    "name": "The Last Debate",
+    "date": "3A-3019-03-16",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Last Debate. Frodo looks from the Morgai over the Orc-camp to Mount Doom.",
+    "characters": [
+      "Frodo"
+    ],
+    "locations": [
+      "Morgai",
+      "Mount Doom"
+    ],
+    "artifacts": [],
+    "type": "council"
+  },
+  {
+    "name": "Battle of Dale",
+    "date": "3A-3019-03-17",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Battle of Dale. King Brand and King Dáin Ironfoot fall. Many Dwarves and Men seek refuge in the Erebor and are besieged. Shagrat brings Frodo's cloak, mail-shirt and sword to Barad-dûr.",
+    "characters": [
+      "Brand",
+      "Dáin Ironfoot",
+      "Dwarves",
+      "Men",
+      "Shagrat",
+      "Frodo"
+    ],
+    "locations": [
+      "Dale",
+      "Erebor",
+      "Barad-dûr"
+    ],
+    "artifacts": [
+      "Frodo's cloak",
+      "mail-shirt",
+      "sword"
+    ],
+    "type": "battle"
+  },
+  {
+    "name": "Host of West leaves Minas Tirith",
+    "date": "3A-3019-03-18",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Host of the West leaves Minas Tirith and marches eastward. Frodo sees the Isenmouthe but is surprised on the road from Durthang to Udûn by Orcs.",
+    "characters": [
+      "Host of the West",
+      "Frodo",
+      "Orcs"
+    ],
+    "locations": [
+      "Minas Tirith",
+      "Isenmouthe",
+      "Durthang",
+      "Udûn"
+    ],
+    "artifacts": [],
+    "type": "march"
+  },
+  {
+    "name": "Host reaches Morgul Vale",
+    "date": "3A-3019-03-19",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Host reaches the Morgul Vale. Frodo and Samwise escape and begin their journey on the road leading to the Dark Tower.",
+    "characters": [
+      "Host of the West",
+      "Frodo",
+      "Samwise"
+    ],
+    "locations": [
+      "Morgul Vale",
+      "Dark Tower"
+    ],
+    "artifacts": [],
+    "type": "march"
+  },
+  {
+    "name": "Journey to Mount Doom begins",
+    "date": "3A-3019-03-22",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The dreadful nightfall. Frodo and Samwise leave the road and wander southward to Mount Doom. Third assault on Lórien.",
+    "characters": [
+      "Frodo",
+      "Samwise"
+    ],
+    "locations": [
+      "Mount Doom",
+      "Lórien"
+    ],
+    "artifacts": [],
+    "type": "journey"
+  },
+  {
+    "name": "Host leaves Ithilien",
+    "date": "3A-3019-03-23",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Host leaves Ithilien. Aragorn dismisses the faint-hearted from service. Frodo and Samwise throw away their armor.",
+    "characters": [
+      "Host of the West",
+      "Aragorn",
+      "Frodo",
+      "Samwise"
+    ],
+    "locations": [
+      "Ithilien"
+    ],
+    "artifacts": [
+      "armor"
+    ],
+    "type": "march"
+  },
+  {
+    "name": "Last journey to Mount Doom",
+    "date": "3A-3019-03-24",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Frodo and Samwise accomplish their last journey to the foot of Mount Doom. The Host camps in the Desolation before the Morannon.",
+    "characters": [
+      "Frodo",
+      "Samwise",
+      "Host of the West"
+    ],
+    "locations": [
+      "Mount Doom",
+      "Desolation",
+      "Morannon"
+    ],
+    "artifacts": [],
+    "type": "journey"
+  },
+  {
+    "name": "Destruction of the Ring",
+    "date": "3A-3019-03-25",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Host is encircled on the slag-hills. Frodo and Samwise reach the Sammath Naur. Gollum gets hold of the Ring and falls into the Cracks of Doom. Destruction of Barad-dûr and Sauron's passing.",
+    "characters": [
+      "Host of the West",
+      "Frodo",
+      "Samwise",
+      "Gollum",
+      "Sauron"
+    ],
+    "locations": [
+      "slag-hills",
+      "Sammath Naur",
+      "Cracks of Doom",
+      "Barad-dûr"
+    ],
+    "artifacts": [
+      "One Ring"
+    ],
+    "type": "destruction"
+  },
+  {
+    "name": "Ring-bearers honored at Cormallen",
+    "date": "3A-3019-04-08",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Frodo and Sam awaken from unconsciousness. The Ring-bearers are honored on the Field of Cormallen.",
+    "characters": [
+      "Frodo",
+      "Sam"
+    ],
+    "locations": [
+      "Field of Cormallen"
+    ],
+    "artifacts": [],
+    "type": "honor"
+  },
+  {
+    "name": "Host camps before Minas Tirith",
+    "date": "3A-3019-04-30",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Host reaches the Pelennor and camps before Minas Tirith.",
+    "characters": [
+      "Host of the West"
+    ],
+    "locations": [
+      "Pelennor",
+      "Minas Tirith"
+    ],
+    "artifacts": [],
+    "type": "encampment"
+  },
+  {
+    "name": "Coronation of Elessar",
+    "date": "3A-3019-05-01",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Coronation of King Elessar. Arwen and Elrond depart from Rivendell for Gondor.",
+    "characters": [
+      "Elessar",
+      "Arwen",
+      "Elrond"
+    ],
+    "locations": [
+      "Rivendell",
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "coronation"
+  },
+  {
+    "name": "Éomer and Éowyn ride to Rohan",
+    "date": "3A-3019-05-08",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Éomer and Éowyn ride with Elrond's sons to Rohan.",
+    "characters": [
+      "Éomer",
+      "Éowyn",
+      "Elrond's sons"
+    ],
+    "locations": [
+      "Rohan"
+    ],
+    "artifacts": [],
+    "type": "journey"
+  },
+  {
+    "name": "Elrond and Arwen come to Lothlórien",
+    "date": "3A-3019-05-20",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Elrond and Arwen come to Lothlórien.",
+    "characters": [
+      "Elrond",
+      "Arwen"
+    ],
+    "locations": [
+      "Lothlórien"
+    ],
+    "artifacts": [],
+    "type": "arrival"
+  },
+  {
+    "name": "Aragorn finds White Tree sapling",
+    "date": "3A-3019-05-25",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Aragorn finds the sapling of the White Tree.",
+    "characters": [
+      "Aragorn"
+    ],
+    "locations": [
+      "Mindolluin"
+    ],
+    "artifacts": [
+      "White Tree sapling"
+    ],
+    "type": "discovery"
+  },
+  {
+    "name": "Arwen's escort leaves Lothlórien",
+    "date": "3A-3019-05-27",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Arwen's escort leaves Lothlórien.",
+    "characters": [
+      "Arwen"
+    ],
+    "locations": [
+      "Lothlórien"
+    ],
+    "artifacts": [],
+    "type": "departure"
+  },
+  {
+    "name": "Arwen comes to Minas Tirith",
+    "date": "3A-3019-06-21",
+    "range": "1 Lithe",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Arwen and her retinue come to Minas Tirith.",
+    "characters": [
+      "Arwen"
+    ],
+    "locations": [
+      "Minas Tirith"
+    ],
+    "artifacts": [],
+    "type": "arrival"
+  },
+  {
+    "name": "Wedding of Elessar and Arwen",
+    "date": "3A-3019-06-22",
+    "range": "Mid-year's Day",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "King Elessar weds Arwen Undómiel.",
+    "characters": [
+      "Elessar",
+      "Arwen Undómiel"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "wedding"
+  },
+  {
+    "name": "Arwen gives Frodo her place",
+    "date": "3A-3019-07-15",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Arwen gives Frodo her place on the ship to the West.",
+    "characters": [
+      "Arwen",
+      "Frodo"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "gift"
+  },
+  {
+    "name": "Funeral escort departs",
+    "date": "3A-3019-07-19",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The funeral escort of King Théoden departs. With it are Aragorn and Arwen, Gandalf, the Hobbits, Legolas, Gimli, Celeborn and Galadriel, Elrond and his sons as well as the Princes of Dol Amroth and Ithilien.",
+    "characters": [
+      "Théoden",
+      "Aragorn",
+      "Arwen",
+      "Gandalf",
+      "Hobbits",
+      "Legolas",
+      "Gimli",
+      "Celeborn",
+      "Galadriel",
+      "Elrond"
+    ],
+    "locations": [
+      "Dol Amroth",
+      "Ithilien"
+    ],
+    "artifacts": [],
+    "type": "funeral"
+  },
+  {
+    "name": "Escort comes to Edoras",
+    "date": "3A-3019-08-07",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The escort comes to Edoras.",
+    "characters": [
+      "Escort"
+    ],
+    "locations": [
+      "Edoras"
+    ],
+    "artifacts": [],
+    "type": "arrival"
+  },
+  {
+    "name": "Burial of Théoden, marriage of Éowyn and Faramir",
+    "date": "3A-3019-08-10",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Burial of King Théoden. Marriage of Éowyn and Faramir.",
+    "characters": [
+      "Théoden",
+      "Éowyn",
+      "Faramir"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "burial"
+  },
+  {
+    "name": "Last farewell of Arwen and Elrond",
+    "date": "3A-3019-08-14",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "With the exception of Faramir, Imrahil and Arwen the company rides on. Last farewell between Arwen and Elrond.",
+    "characters": [
+      "Faramir",
+      "Imrahil",
+      "Arwen",
+      "Elrond"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "farewell"
+  },
+  {
+    "name": "Treebeard releases Saruman",
+    "date": "3A-3019-08-15",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Treebeard releases Saruman and Wormtongue from Orthanc.",
+    "characters": [
+      "Treebeard",
+      "Saruman",
+      "Wormtongue"
+    ],
+    "locations": [
+      "Orthanc"
+    ],
+    "artifacts": [],
+    "type": "release"
+  },
+  {
+    "name": "Company visits Glittering Caves",
+    "date": "3A-3019-08-18",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The company comes to Helm's Deep. Legolas and Gimli visit the Glittering Caves of Aglarond.",
+    "characters": [
+      "Legolas",
+      "Gimli"
+    ],
+    "locations": [
+      "Helm's Deep",
+      "Glittering Caves",
+      "Aglarond"
+    ],
+    "artifacts": [],
+    "type": "visit"
+  },
+  {
+    "name": "Learn of Saruman's release",
+    "date": "3A-3019-08-22",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "They reach Isengard and learn of Saruman's release. Aragorn and his retinue turn back and the company moves on to Dunland.",
+    "characters": [
+      "Aragorn",
+      "Saruman"
+    ],
+    "locations": [
+      "Isengard",
+      "Dunland"
+    ],
+    "artifacts": [],
+    "type": "discovery"
+  },
+  {
+    "name": "Overtake Saruman",
+    "date": "3A-3019-08-28",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "They overtake Saruman and Wormtongue.",
+    "characters": [
+      "Saruman",
+      "Wormtongue"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "encounter"
+  },
+  {
+    "name": "Rest west of Moria",
+    "date": "3A-3019-09-06",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "They rest west of the Mountains of Moria.",
+    "characters": [],
+    "locations": [
+      "Mountains of Moria"
+    ],
+    "artifacts": [],
+    "type": "rest"
+  },
+  {
+    "name": "Celeborn and Galadriel farewell",
+    "date": "3A-3019-09-13",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Celeborn and Galadriel bid farewell, the others ride on to Imladris.",
+    "characters": [
+      "Celeborn",
+      "Galadriel"
+    ],
+    "locations": [
+      "Imladris"
+    ],
+    "artifacts": [],
+    "type": "farewell"
+  },
+  {
+    "name": "Company comes to Rivendell",
+    "date": "3A-3019-09-21",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "They come to Imladris.",
+    "characters": [],
+    "locations": [
+      "Imladris"
+    ],
+    "artifacts": [],
+    "type": "arrival"
+  },
+  {
+    "name": "Bilbo's 129th birthday",
+    "date": "3A-3019-09-22",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Bilbo's 129th birthday.",
+    "characters": [
+      "Bilbo"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "birthday"
+  },
+  {
+    "name": "Gandalf and Hobbits depart Rivendell",
+    "date": "3A-3019-10-05",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gandalf and the Hobbits depart from Imladris.",
+    "characters": [
+      "Gandalf",
+      "Hobbits"
+    ],
+    "locations": [
+      "Imladris"
+    ],
+    "artifacts": [],
+    "type": "departure"
+  },
+  {
+    "name": "Cross Ford of Bruinen",
+    "date": "3A-3019-10-06",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "They cross the Ford of Bruinen. Frodo's wound pains him.",
+    "characters": [
+      "Frodo"
+    ],
+    "locations": [
+      "Ford of Bruinen"
+    ],
+    "artifacts": [],
+    "type": "crossing"
+  },
+  {
+    "name": "Return to Bree",
+    "date": "3A-3019-10-28",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "At nightfall they come to Bree.",
+    "characters": [],
+    "locations": [
+      "Bree"
+    ],
+    "artifacts": [],
+    "type": "arrival"
+  },
+  {
+    "name": "Gandalf visits Tom Bombadil",
+    "date": "3A-3019-10-30",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "They leave Bree. Gandalf parts from the Hobbits to visit Tom Bombadil. In the evening the Hobbits reach the Bridge of Brandywine.",
+    "characters": [
+      "Gandalf",
+      "Tom Bombadil",
+      "Hobbits"
+    ],
+    "locations": [
+      "Bree",
+      "Bridge of Brandywine"
+    ],
+    "artifacts": [],
+    "type": "departure"
+  },
+  {
+    "name": "Arrest at Frogmorton",
+    "date": "3A-3019-11-01",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "They are arrested at Frogmorton and move on under 'supervision' of the Shirriffs.",
+    "characters": [
+      "Hobbits",
+      "Shirriffs"
+    ],
+    "locations": [
+      "Frogmorton"
+    ],
+    "artifacts": [],
+    "type": "arrest"
+  },
+  {
+    "name": "Call to resistance",
+    "date": "3A-3019-11-02",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "They reach Bywater and call the Shire to resistance.",
+    "characters": [
+      "Hobbits"
+    ],
+    "locations": [
+      "Bywater",
+      "Shire"
+    ],
+    "artifacts": [],
+    "type": "call to arms"
+  },
+  {
+    "name": "Battle of Bywater, Saruman's death",
+    "date": "3A-3019-11-03",
+    "range": "3019",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Battle of Bywater. Saruman's death. Liberation of the Shire.",
+    "characters": [
+      "Saruman"
+    ],
+    "locations": [
+      "Bywater",
+      "Shire"
+    ],
+    "artifacts": [],
+    "type": "battle"
+  },
+  {
+    "name": "Frodo ill on Shelob anniversary",
+    "date": "3A-3020-03-13",
+    "range": "3020",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "On the anniversary of his wounding by Shelob Frodo is ill.",
+    "characters": [
+      "Frodo",
+      "Shelob"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "illness"
+  },
+  {
+    "name": "Mallorn blooms",
+    "date": "3A-3020-04-06",
+    "range": "3020",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The mallorn on the Party Field blooms.",
+    "characters": [],
+    "locations": [
+      "Party Field"
+    ],
+    "artifacts": [
+      "mallorn"
+    ],
+    "type": "blooming"
+  },
+  {
+    "name": "Sam and Rosie marry",
+    "date": "3A-3020-05-01",
+    "range": "3020",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Sam and Rosie marry.",
+    "characters": [
+      "Sam",
+      "Rosie"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "wedding"
+  },
+  {
+    "name": "Frodo resigns as Mayor",
+    "date": "3A-3020-06-22",
+    "range": "Mid-year's Day",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Frodo gives the office of Mayor back to Will Whitfoot.",
+    "characters": [
+      "Frodo",
+      "Will Whitfoot"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "resignation"
+  },
+  {
+    "name": "Bilbo's 130th birthday",
+    "date": "3A-3020-09-22",
+    "range": "3020",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Bilbo's 130th birthday.",
+    "characters": [
+      "Bilbo"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "birthday"
+  },
+  {
+    "name": "Frodo ill on Weathertop anniversary",
+    "date": "3A-3020-10-06",
+    "range": "3020",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Frodo is ill again (anniversary of his wounding on Amon Sûl).",
+    "characters": [
+      "Frodo"
+    ],
+    "locations": [
+      "Amon Sûl"
+    ],
+    "artifacts": [],
+    "type": "illness"
+  },
+  {
+    "name": "Frodo ill again",
+    "date": "3A-3021-03-13",
+    "range": "3021",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Frodo is ill again.",
+    "characters": [
+      "Frodo"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "illness"
+  },
+  {
+    "name": "Birth of Elanor, Fourth Age begins",
+    "date": "3A-3021-03-25",
+    "range": "3021",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Birth of Elanor, Sam's daughter. According to the Reckoning of Gondor the Fourth Age begins on this day.",
+    "characters": [
+      "Elanor",
+      "Sam"
+    ],
+    "locations": [
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "Frodo and Sam depart to Grey Havens",
+    "date": "3A-3021-09-21",
+    "range": "3021",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Frodo and Sam depart from Hobbiton towards the Grey Havens.",
+    "characters": [
+      "Frodo",
+      "Sam"
+    ],
+    "locations": [
+      "Hobbiton",
+      "Grey Havens"
+    ],
+    "artifacts": [],
+    "type": "departure"
+  },
+  {
+    "name": "Meet Elrond, Galadriel and Bilbo",
+    "date": "3A-3021-09-22",
+    "range": "3021",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "At Woody End they meet Elrond, Galadriel and Bilbo.",
+    "characters": [
+      "Elrond",
+      "Galadriel",
+      "Bilbo"
+    ],
+    "locations": [
+      "Woody End"
+    ],
+    "artifacts": [],
+    "type": "meeting"
+  },
+  {
+    "name": "Departure to the Undying Lands",
+    "date": "3A-3021-09-29",
+    "range": "3021",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "They reach the Grey Havens, where Gandalf awaits them and a ship lies ready. At the last moment Merry and Pippin arrive to bid farewell. Bilbo and Frodo go aboard with Gandalf, Galadriel and Elrond and sail westward. The Third Age ends here officially.",
+    "characters": [
+      "Gandalf",
+      "Merry",
+      "Pippin",
+      "Bilbo",
+      "Frodo",
+      "Galadriel",
+      "Elrond"
+    ],
+    "locations": [
+      "Grey Havens"
+    ],
+    "artifacts": [],
+    "type": "departure"
+  },
+  {
+    "name": "Return to the Shire",
+    "date": "3A-3021-10-06",
+    "range": "3021",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Sam, Merry and Pippin return to the Shire.",
+    "characters": [
+      "Sam",
+      "Merry",
+      "Pippin"
+    ],
+    "locations": [
+      "Shire"
+    ],
+    "artifacts": [],
+    "type": "return"
+  }
+]

@@ -1,0 +1,36 @@
+Creative Commons Attribution-ShareAlike 3.0 Unported License
+
+ARDAPEDIA DATA LICENSE NOTICE
+=============================
+
+The historical event data contained in the src/data/ directory of this project 
+is derived from Ardapedia (https://ardapedia.org) and is licensed under the 
+Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) License.
+
+ATTRIBUTION:
+- Original Source: Ardapedia (https://ardapedia.org)
+- License: Creative Commons Attribution-ShareAlike 3.0 Unported
+- License URL: https://creativecommons.org/licenses/by-sa/3.0/
+
+LICENSE REQUIREMENTS:
+- Attribution: You must give appropriate credit to Ardapedia
+- ShareAlike: Any derivative works must be distributed under the same license
+- You may copy, distribute, display, and perform the work
+- You may make derivative works
+- You must attribute the work to Ardapedia
+
+AFFECTED FILES:
+- src/data/B1A-events.json
+- src/data/1AT-events.json
+- src/data/1AS-events.json
+- src/data/2A-events.json
+- src/data/3A-early.json
+- src/data/3A-middle.json
+- src/data/3A-late.json
+- src/data/4A-events.json
+
+For the complete Creative Commons Attribution-ShareAlike 3.0 license text, 
+please visit: https://creativecommons.org/licenses/by-sa/3.0/legalcode
+
+NOTICE: This license applies only to the historical event data. The Anno Arda 
+application code itself is licensed under the MIT License (see LICENSE file).
