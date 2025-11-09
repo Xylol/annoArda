@@ -60,9 +60,10 @@ interface EventInputProps {
   onDayChange: (value: string) => void
   onCalendarChange: (value: CalendarSystem) => void
   searchResultsSide: 'left' | 'right'
+  idPrefix: string
 }
 
-function EventInput({ title, titleColor, year, month, day, calendar, onYearChange, onMonthChange, onDayChange, onCalendarChange, searchResultsSide }: EventInputProps) {
+function EventInput({ title, titleColor, year, month, day, calendar, onYearChange, onMonthChange, onDayChange, onCalendarChange, searchResultsSide, idPrefix }: EventInputProps) {
   const [searchQuery, setSearchQuery] = useState('')
   const [searchResults, setSearchResults] = useState<MiddleEarthEvent[]>([])
   const [showResults, setShowResults] = useState(false)
@@ -343,9 +344,11 @@ function EventInput({ title, titleColor, year, month, day, calendar, onYearChang
       boxSizing: 'border-box'
     }}>
       <h3 style={{ marginBottom: '1rem', color: titleColor }}>{title}</h3>
-      
+
       {/* Search Bar */}
+      <label htmlFor={`${idPrefix}-search`} style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold', color: 'var(--text-primary)', fontSize: 'var(--font-base)' }}>Search:</label>
       <input
+        id={`${idPrefix}-search`}
         type="text"
         value={searchQuery}
         onChange={(e) => handleLetterInput(e.target.value, setSearchQuery)}
@@ -447,8 +450,9 @@ function EventInput({ title, titleColor, year, month, day, calendar, onYearChang
       {/* Manual Entry Fields */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--field-vertical-gap)' }}>
         <div>
-          <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold', color: 'var(--text-primary)', fontSize: 'var(--font-base)' }}>Calendar:</label>
+          <label htmlFor={`${idPrefix}-calendar`} style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold', color: 'var(--text-primary)', fontSize: 'var(--font-base)' }}>Calendar:</label>
           <select
+            id={`${idPrefix}-calendar`}
             value={calendar}
             onChange={(e) => onCalendarChange(e.target.value as CalendarSystem)}
             style={{
@@ -467,8 +471,9 @@ function EventInput({ title, titleColor, year, month, day, calendar, onYearChang
           </select>
         </div>
         <div>
-          <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold', color: 'var(--text-primary)', fontSize: 'var(--font-base)' }}>Year:</label>
+          <label htmlFor={`${idPrefix}-year`} style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold', color: 'var(--text-primary)', fontSize: 'var(--font-base)' }}>Year:</label>
           <input
+            id={`${idPrefix}-year`}
             type="text"
             value={year}
             onChange={(e) => handleYearInput(e.target.value, onYearChange, calendar)}
@@ -479,8 +484,9 @@ function EventInput({ title, titleColor, year, month, day, calendar, onYearChang
           />
         </div>
         <div>
-          <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold', color: 'var(--text-primary)', fontSize: 'var(--font-base)' }}>Month:</label>
+          <label htmlFor={`${idPrefix}-month`} style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold', color: 'var(--text-primary)', fontSize: 'var(--font-base)' }}>Month:</label>
           <input
+            id={`${idPrefix}-month`}
             type="text"
             value={month}
             onChange={(e) => handleMonthInput(e.target.value, onMonthChange)}
@@ -491,8 +497,9 @@ function EventInput({ title, titleColor, year, month, day, calendar, onYearChang
           />
         </div>
         <div>
-          <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold', color: 'var(--text-primary)', fontSize: 'var(--font-base)' }}>Day:</label>
+          <label htmlFor={`${idPrefix}-day`} style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold', color: 'var(--text-primary)', fontSize: 'var(--font-base)' }}>Day:</label>
           <input
+            id={`${idPrefix}-day`}
             type="text"
             value={day}
             onChange={(e) => handleDayInput(e.target.value, onDayChange, month)}
@@ -767,6 +774,7 @@ function App() {
               onDayChange={(value) => setState(prev => ({ ...prev, startDay: value }))}
               onCalendarChange={(value) => setState(prev => ({ ...prev, startCalendar: value }))}
               searchResultsSide="right"
+              idPrefix="start"
             />
 
             <EventInput
@@ -781,6 +789,7 @@ function App() {
               onDayChange={(value) => setState(prev => ({ ...prev, endDay: value }))}
               onCalendarChange={(value) => setState(prev => ({ ...prev, endCalendar: value }))}
               searchResultsSide="left"
+              idPrefix="end"
             />
           </div>
           
