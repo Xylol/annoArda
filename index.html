@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Calculate time spans between events in J.R.R. Tolkien's Middle-earth across different ages and calendar systems." />
+    <meta name="keywords" content="Tolkien, Middle-earth, calendar, timeline, Third Age, Second Age, First Age, Arda" />
+    <meta name="author" content="Anno Arda" />
+
+    <title>Anno Arda - Middle-earth Timeline Calculator</title>
+
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      script-src 'self' 'unsafe-inline';
+      style-src 'self' 'unsafe-inline';
+      img-src 'self' data: blob:;
+      font-src 'self';
+      connect-src 'self';
+      object-src 'none';
+      media-src 'self';
+      frame-src 'none';
+      worker-src 'self';
+      child-src 'none';
+      form-action 'self';
+      base-uri 'self';
+      upgrade-insecure-requests;
+    ">
+
+    <!-- Additional security headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+
+    <!-- Permissions Policy -->
+    <meta http-equiv="Permissions-Policy" content="
+      geolocation=(),
+      microphone=(),
+      camera=(),
+      fullscreen=(self),
+      payment=()
+    ">
+
+    <!-- SPA redirect handler -->
+    <script>
+      // Handle redirects from 404.html
+      const urlParams = new URLSearchParams(window.location.search);
+      const redirect = urlParams.get('redirect');
+      if (redirect) {
+        // Navigate to the route relative to the basename
+        history.replaceState(null, null, '/annoArda/' + redirect);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

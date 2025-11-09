@@ -1,0 +1,1011 @@
+[
+  {
+    "name": "Death of Ciryandil",
+    "date": "3A-1015",
+    "range": "1015",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Ciryandil falls in a battle against the Men of Harad in Haradwaith, who had advanced against the fortress under the leadership of the lords driven from Umbar and besieged it for many years thereafter. Due to Gondor's strength at sea, however, it could not be reconquered.",
+    "characters": [
+      "Ciryandil",
+      "Men of Harad"
+    ],
+    "locations": [
+      "Haradwaith",
+      "Umbar"
+    ],
+    "artifacts": [],
+    "type": "death"
+  },
+  {
+    "name": "Hyarmendacil I defeats the Haradrim",
+    "date": "3A-1050",
+    "range": "1050",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Ciryandil's son King Ciryaher, who had previously gathered sufficient forces, attacks the Haradrim on land and sea and defeats them devastatingly after his army has crossed the river Harnen. The Kings of the Haradrim must acknowledge his overlordship, whereby the Harad falls to Gondor, which now reaches the height of its power. Ciryaher thereupon takes the name Hyarmendacil I, \"South-victor\". He is the 15th King of Gondor and the last of the Ship-kings. During his long reign Gondor will henceforth experience a phase of peace, with 134 years he is king longer than all other descendants of Anárion, apart from one (Tarondor). At the same time, however, the first shadow of the returning Sauron falls on the Great Greenwood, which Men henceforth call Mirkwood. A little later, in the period between 1050 and 1100, five Istari (including Gandalf) enter northern Middle-earth.",
+    "characters": [
+      "Ciryandil",
+      "Ciryaher",
+      "Hyarmendacil I",
+      "Haradrim",
+      "Sauron",
+      "Istari",
+      "Gandalf"
+    ],
+    "locations": [
+      "Harnen",
+      "Harad",
+      "Gondor",
+      "Great Greenwood",
+      "Mirkwood",
+      "Middle-earth"
+    ],
+    "artifacts": [],
+    "type": "battle"
+  },
+  {
+    "name": "Evil power noticed at Dol Guldur",
+    "date": "3A-1100",
+    "range": "ca. 1100",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Istari and the heads of the Eldar notice that an evil power hides in a fortress at Dol Guldur in Mirkwood, which they initially take for one of the Nazgûl.",
+    "characters": [
+      "Istari",
+      "Eldar",
+      "Nazgûl"
+    ],
+    "locations": [
+      "Dol Guldur",
+      "Mirkwood"
+    ],
+    "artifacts": [],
+    "type": "discovery"
+  },
+  {
+    "name": "Death of Hyarmendacil I",
+    "date": "3A-1149",
+    "range": "1149",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Hyarmendacil I dies. Under his son Atanatar II, who takes the epithet Alcarin, \"the Glorious\", and displays much pomp but undertakes little to preserve Gondor's power, begins the creeping decline of the realm. The surveillance of Mordor is also neglected.",
+    "characters": [
+      "Hyarmendacil I",
+      "Atanatar II",
+      "Alcarin"
+    ],
+    "locations": [
+      "Gondor",
+      "Mordor"
+    ],
+    "artifacts": [],
+    "type": "death"
+  },
+  {
+    "name": "Hobbits migrate to Eriador",
+    "date": "3A-1150",
+    "range": "ca. 1150",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Fallohides follow the Harfoots to Eriador. The Stoors cross the Redhorn Pass into the Angle and to Dunland.",
+    "characters": [
+      "Fallohides",
+      "Harfoots",
+      "Stoors"
+    ],
+    "locations": [
+      "Eriador",
+      "Redhorn Pass",
+      "Angle",
+      "Dunland"
+    ],
+    "artifacts": [],
+    "type": "migration"
+  },
+  {
+    "name": "Minalcar appointed regent",
+    "date": "3A-1240",
+    "range": "1240",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Narmacil I, the seventeenth King of Gondor, appoints his energetic nephew Minalcar as regent to rid himself of the cares of rule.",
+    "characters": [
+      "Narmacil I",
+      "Minalcar"
+    ],
+    "locations": [
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "appointment"
+  },
+  {
+    "name": "Minalcar defeats the Easterlings",
+    "date": "3A-1248",
+    "range": "1248",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The regent Minalcar defeats in a battle between the Inland Sea of Rhûn and the Ash Mountains a strong force of Easterlings, who again threaten Gondor and with whom some of the Northmen make common cause, who have actually been allies of Gondor for a long time and to whom wide territories beyond the Anduin and south of Mirkwood have been left as a bulwark against the east. Minalcar takes the name Rómendacil, fortifies the west bank of the Anduin to the mouth of the Limlight and henceforth forbids all strangers to sail the river southward beyond the Emyn Muil. He also erects as a visible sign of this the statues of the Argonath. Since he needs men, however, and wants to strengthen the bonds between Gondor and the northern peoples, he lets many men from the north enter his service, some of them are even given high ranks in the army.",
+    "characters": [
+      "Minalcar",
+      "Rómendacil",
+      "Easterlings",
+      "Northmen"
+    ],
+    "locations": [
+      "Rhûn",
+      "Ash Mountains",
+      "Gondor",
+      "Anduin",
+      "Mirkwood",
+      "Limlight",
+      "Emyn Muil",
+      "Argonath"
+    ],
+    "artifacts": [
+      "Argonath"
+    ],
+    "type": "battle"
+  },
+  {
+    "name": "Valacar marries Vidumavi",
+    "date": "3A-1250",
+    "range": "1250",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Rómendacil sends his son Valacar as ambassador to Vidugavia, the mightiest lord and self-proclaimed King of Rhovanion, so that he may become familiar with the language as well as the customs and practices of the northern peoples. Valacar, however, falls in love with Vidugavia's daughter Vidumavi, marries her and returns to Gondor only years later. This union later becomes the trigger for the Kinstrife in Gondor.",
+    "characters": [
+      "Rómendacil",
+      "Valacar",
+      "Vidugavia",
+      "Vidumavi"
+    ],
+    "locations": [
+      "Rhovanion",
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "marriage"
+  },
+  {
+    "name": "Succession of Rómendacil II",
+    "date": "3A-1294",
+    "range": "1294",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Narmacil I dies and leaves no descendants as the second ruler after Falastur. His younger brother Calmacil becomes his successor, who is already followed in 1304 by his son Minalcar, who has served as regent until this time, under his adopted name as Rómendacil II.",
+    "characters": [
+      "Narmacil I",
+      "Falastur",
+      "Calmacil",
+      "Minalcar",
+      "Rómendacil II"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "succession"
+  },
+  {
+    "name": "Rise of the Witch-king of Angmar",
+    "date": "3A-1300",
+    "range": "ca. 1300",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The number of evil creatures increases. The Orcs of the Misty Mountains multiply greatly and attacks on the Dwarves occur. The Nazgûl also appear again and their leader goes north beyond the Ettenmoors, where shortly after Malvegil's accession to power in Arthedain on both sides of the Misty Mountains the realm of Angmar arises, in which Orcs, corrupted Men and many other evil creatures begin to gather. The ruler of this realm becomes known as the Witch-king of Angmar and is none other than the chief of the Nazgûl, even though this is not known for a long time. He bears the intention to destroy the northern realms of the Dúnedain, since they are divided and quarrelsome compared to Gondor, which is still very powerful at this time. The Hobbits wander further west at this time, many find a new home in Bree.",
+    "characters": [
+      "Orcs",
+      "Dwarves",
+      "Nazgûl",
+      "Malvegil",
+      "Witch-king",
+      "Dúnedain",
+      "Hobbits"
+    ],
+    "locations": [
+      "Misty Mountains",
+      "Ettenmoors",
+      "Arthedain",
+      "Angmar",
+      "Gondor",
+      "Bree"
+    ],
+    "artifacts": [],
+    "type": "corruption"
+  },
+  {
+    "name": "Argeleb I claims rule over all Arnor",
+    "date": "3A-1356",
+    "range": "1356",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "At the time of Argeleb I the Kings of Arthedain again begin to claim rule over all Arnor, since no descendants of Isildur are alive anymore in Cardolan and Rhudaur and place the syllable ar(a) before their name as a sign of this. Rhudaur, in which only few Dúnedain live anymore and in which a lord of the hill-men living there has come to power, who is secretly in league with Angmar, rejects Arthedain's claims. War breaks out, Argeleb I fortifies the Weather Hills and falls in battle against Rhudaur and Angmar. At this time the Stoors leave the Angle and flee from the war, the terror from Angmar and the increasingly inhospitable land and climate westward and southward. Some of them return to Rhovanion and settle at the Gladden, where they become a fisher-folk. Gollum, or Sméagol, as he was originally called, will later belong to this people.",
+    "characters": [
+      "Argeleb I",
+      "Arthedain",
+      "Isildur",
+      "Cardolan",
+      "Rhudaur",
+      "Dúnedain",
+      "hill-men",
+      "Angmar",
+      "Stoors",
+      "Gollum",
+      "Sméagol"
+    ],
+    "locations": [
+      "Arnor",
+      "Weather Hills",
+      "Angle",
+      "Rhovanion",
+      "Gladden"
+    ],
+    "artifacts": [],
+    "type": "political"
+  },
+  {
+    "name": "Witch-king invades Cardolan",
+    "date": "3A-1409",
+    "range": "1409",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Witch-king of Angmar invades Cardolan with his troops, which had stood by Arthedain in the fight against Angmar and Rhudaur in the years before. They surround Amon Sûl, burn down the watchtower there and lay waste the land. The Palantír of Amon Sûl can however be saved and brought to Fornost. The remaining Dúnedain in Rhudaur are killed or driven away, the land finally occupied by the hill-men. The King of Arthedain, Arveleg I, falls in battle. His young son Araphor can drive the enemies from Fornost and the northern downs with Círdan's help. A small remainder of the Dúnedain of Cardolan, whose last lord also falls in battle, can also still hold out on the Barrow-downs and in the Old Forest.",
+    "characters": [
+      "Witch-king",
+      "Angmar",
+      "Cardolan",
+      "Arthedain",
+      "Rhudaur",
+      "Dúnedain",
+      "Palantír",
+      "Arveleg I",
+      "Araphor",
+      "Círdan"
+    ],
+    "locations": [
+      "Amon Sûl",
+      "Fornost",
+      "Barrow-downs",
+      "Old Forest"
+    ],
+    "artifacts": [
+      "Palantír"
+    ],
+    "type": "invasion"
+  },
+  {
+    "name": "Beginning of the Kinstrife",
+    "date": "3A-1432",
+    "range": "1432",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Valacar, the twentieth King of Gondor, dies. Already in the years before there had been uprisings in the land, since the king had been married to Vidumavi, a woman from the north, and it was feared that her short life would also be passed on to her descendants, which would have led to a decline of royal majesty. Valacar's son Eldacar, who had not been born in Gondor and had been called Vinitharya in his youth, is thereupon refused recognition as king by many, especially from the nobility of Gondor. A fierce civil war begins in Gondor, which becomes known as the Kinstrife.",
+    "characters": [
+      "Valacar",
+      "Vidumavi",
+      "Eldacar",
+      "Vinitharya"
+    ],
+    "locations": [
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "civil_war"
+  },
+  {
+    "name": "Siege of Osgiliath",
+    "date": "3A-1437",
+    "range": "1437",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "In the Kinstrife Osgiliath is besieged and largely burned down and destroyed. The Tower of the Stone-dome is destroyed and the Palantír is lost in the floods of Anduin. Eldacar flees to Rhovanion, his captured son Ornendil is murdered by Castamir, a grandson of Calimehtar, younger brother of Rómendacil II, who is also mighty commander of the fleet and seizes the throne. Through the slaughter and destruction in the capture of Osgiliath and the murder of Ornendil he quickly becomes unpopular, especially since as commander of the fleet he harbors plans to move the king's seat to Pelargir.",
+    "characters": [
+      "Eldacar",
+      "Ornendil",
+      "Castamir",
+      "Calimehtar",
+      "Rómendacil II"
+    ],
+    "locations": [
+      "Osgiliath",
+      "Rhovanion",
+      "Anduin",
+      "Pelargir"
+    ],
+    "artifacts": [
+      "Palantír"
+    ],
+    "type": "siege"
+  },
+  {
+    "name": "Eldacar defeats Castamir",
+    "date": "3A-1447",
+    "range": "1447",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Eldacar, who had gathered a great army of Northmen and Dúnedain loyal to him in the north, marches towards Gondor and is enthusiastically received by the people. In Lebennin, at the crossings over the Erui, a great decisive battle takes place, in which a large part of the Gondorian nobility loses its life and Eldacar personally slays Castamir and thus avenges his son. Castamir's sons escape, however, and hold out with many followers of the fleet in Pelargir, where they are besieged.",
+    "characters": [
+      "Eldacar",
+      "Northmen",
+      "Dúnedain",
+      "Castamir"
+    ],
+    "locations": [
+      "Gondor",
+      "Lebennin",
+      "Erui",
+      "Pelargir"
+    ],
+    "artifacts": [],
+    "type": "battle"
+  },
+  {
+    "name": "Rebels found independent realm in Umbar",
+    "date": "3A-1448",
+    "range": "1448",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The rebels gather their remaining forces and sail to Umbar, where they found an independent realm. The Corsairs of Umbar, who later fall under Sauron's rule, remain henceforth at war with Gondor for many centuries and threaten its coastal regions and sea routes. The south of Gondor between the two realms becomes a disputed territory. Its rule over the Harad is lost.",
+    "characters": [
+      "Corsairs",
+      "Sauron"
+    ],
+    "locations": [
+      "Umbar",
+      "Gondor",
+      "Harad"
+    ],
+    "artifacts": [],
+    "type": "foundation"
+  },
+  {
+    "name": "Death of Aldamir",
+    "date": "3A-1540",
+    "range": "1540",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "King Aldamir, Eldacar's second son, falls in the war with Harad and the Corsairs of Umbar.",
+    "characters": [
+      "Aldamir",
+      "Eldacar",
+      "Corsairs"
+    ],
+    "locations": [
+      "Harad",
+      "Umbar"
+    ],
+    "artifacts": [],
+    "type": "death"
+  },
+  {
+    "name": "Vinyarion defeats the Haradrim",
+    "date": "3A-1541",
+    "range": "1541",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Aldamir's son Vinyarion defeats the Men of Harad and henceforth calls himself Hyarmendacil II, \"South-victor\", in reference to Hyarmendacil I.",
+    "characters": [
+      "Vinyarion",
+      "Hyarmendacil II",
+      "Men of Harad",
+      "Hyarmendacil I"
+    ],
+    "locations": [
+      "Harad"
+    ],
+    "artifacts": [],
+    "type": "battle"
+  },
+  {
+    "name": "Foundation of the Shire",
+    "date": "3A-1601",
+    "range": "1601",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Many Hobbits move away from Bree, King Argeleb II of Arthedain assigns them land that lies west of the Baranduin. The Shire is founded.",
+    "characters": [
+      "Hobbits",
+      "Argeleb II"
+    ],
+    "locations": [
+      "Bree",
+      "Arthedain",
+      "Baranduin",
+      "Shire"
+    ],
+    "artifacts": [],
+    "type": "foundation"
+  },
+  {
+    "name": "Stoors join the Shire",
+    "date": "3A-1630",
+    "range": "1630",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Stoors from Dunland join them.",
+    "characters": [
+      "Stoors"
+    ],
+    "locations": [
+      "Dunland"
+    ],
+    "artifacts": [],
+    "type": "migration"
+  },
+  {
+    "name": "Corsairs ravage Pelargir",
+    "date": "3A-1634",
+    "range": "1634",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Corsairs of Umbar under the leadership of Angamaitë and Sangahyando, Castamir's great-grandsons, ravage Pelargir and kill King Minardil.",
+    "characters": [
+      "Corsairs",
+      "Angamaitë",
+      "Sangahyando",
+      "Castamir",
+      "Minardil"
+    ],
+    "locations": [
+      "Umbar",
+      "Pelargir"
+    ],
+    "artifacts": [],
+    "type": "attack"
+  },
+  {
+    "name": "The Great Plague",
+    "date": "3A-1636",
+    "range": "1636",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Great Plague, carried by dark east winds and broken out in Gondor, afflicts all Middle-earth; the King of Gondor, Telemnar, and his children also fall victim to it and with them many people in Gondor, especially in Osgiliath. The watches at the borders of Mordor are abandoned and the fortresses there no longer manned and the White Tree in Minas Anor withers and dies. The Hobbits in Eriador must also mourn many victims, as do the Men in Cardolan, especially in Minhiriath. The northern parts of Arthedain are hardly touched, however. The remaining Dúnedain in Cardolan find an end and into the Barrow-downs penetrate Barrow-wights, evil spirits from Angmar and Rhudaur. At the same time the shadow on Mirkwood becomes denser and many other evil creatures appear again.",
+    "characters": [
+      "Telemnar",
+      "Hobbits",
+      "Men",
+      "Dúnedain",
+      "Barrow-wights"
+    ],
+    "locations": [
+      "Gondor",
+      "Middle-earth",
+      "Osgiliath",
+      "Mordor",
+      "Minas Anor",
+      "Eriador",
+      "Cardolan",
+      "Minhiriath",
+      "Arthedain",
+      "Barrow-downs",
+      "Angmar",
+      "Rhudaur",
+      "Mirkwood"
+    ],
+    "artifacts": [
+      "White Tree"
+    ],
+    "type": "plague"
+  },
+  {
+    "name": "Capital moved to Minas Anor",
+    "date": "3A-1640",
+    "range": "1640",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The capital of Gondor is moved by King Tarondor, nephew of King Telemnar, from the largely abandoned and falling into ruins Osgiliath to Minas Anor, where he again plants a sapling of the White Tree. Under the rule of King Tarondor, which is the longest of all Kings of Gondor, the realm is reorganized and slowly recovers.",
+    "characters": [
+      "Tarondor",
+      "Telemnar"
+    ],
+    "locations": [
+      "Gondor",
+      "Osgiliath",
+      "Minas Anor"
+    ],
+    "artifacts": [
+      "White Tree"
+    ],
+    "type": "political"
+  },
+  {
+    "name": "Conquest of Umbar by Telumehtar",
+    "date": "3A-1810",
+    "range": "1810",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "King Telumehtar, Tarondor's son, decides to do something against the Corsairs of Umbar, since their raids on Gondor's coasts up to Anfalas enrage him and he wants to avenge Minardil's death. He gathers an army and conquers Umbar, whereby Castamir's last descendants find death and the Corsairs are driven away. Telumehtar thereupon adds to his name the title Umbardacil, \"Conqueror of Umbar\".",
+    "characters": [
+      "Telumehtar",
+      "Tarondor",
+      "Corsairs",
+      "Minardil",
+      "Castamir",
+      "Umbardacil"
+    ],
+    "locations": [
+      "Umbar",
+      "Gondor",
+      "Anfalas"
+    ],
+    "artifacts": [],
+    "type": "conquest"
+  },
+  {
+    "name": "Attacks of the Wainriders",
+    "date": "3A-1851",
+    "range": "1851",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The seemingly out of nowhere coming attacks of the so-called \"Wainriders\" on Gondor begin, a heavily armed people or confederation of peoples from the east incited by Sauron's emissaries. They attack in great wagon-trains and their chieftains fight in war-chariots. King Narmacil II falls in a battle beyond the Anduin and Gondor must withdraw its borders for a time to the Anduin and the Emyn Muil. The peoples in southern and eastern Rhovanion are enslaved. It is later assumed that at this time the Nazgûl also return to Mordor.",
+    "characters": [
+      "Wainriders",
+      "Sauron",
+      "Narmacil II",
+      "Nazgûl"
+    ],
+    "locations": [
+      "Gondor",
+      "Anduin",
+      "Emyn Muil",
+      "Rhovanion",
+      "Mordor"
+    ],
+    "artifacts": [],
+    "type": "attack"
+  },
+  {
+    "name": "Calimehtar defeats the Wainriders",
+    "date": "3A-1899",
+    "range": "1899",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "King Calimehtar defeats the Wainriders in a battle on the Dagorlad and avenges his fallen father. An uprising in Rhovanion had come to his aid.",
+    "characters": [
+      "Calimehtar",
+      "Wainriders"
+    ],
+    "locations": [
+      "Dagorlad",
+      "Rhovanion"
+    ],
+    "artifacts": [],
+    "type": "battle"
+  },
+  {
+    "name": "White Tower built",
+    "date": "3A-1900",
+    "range": "1900",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Calimehtar erects the White Tower in Minas Anor.",
+    "characters": [
+      "Calimehtar"
+    ],
+    "locations": [
+      "Minas Anor"
+    ],
+    "artifacts": [
+      "White Tower"
+    ],
+    "type": "construction"
+  },
+  {
+    "name": "Alliance between Gondor and Arthedain",
+    "date": "3A-1940",
+    "range": "1940",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The two kingdoms of the Dúnedain in Middle-earth, Gondor and Arnor (or Arthedain) enter into contact with each other again after a long time of estrangement and conclude an alliance, since they recognize that behind the attacks on them stands a single, directing will. Arvedui, son of King Araphant of Arthedain marries Fíriel, daughter of King Ondoher of Gondor.",
+    "characters": [
+      "Dúnedain",
+      "Arvedui",
+      "Araphant",
+      "Fíriel",
+      "Ondoher"
+    ],
+    "locations": [
+      "Middle-earth",
+      "Gondor",
+      "Arnor",
+      "Arthedain"
+    ],
+    "artifacts": [],
+    "type": "alliance"
+  },
+  {
+    "name": "Battle of the Morannon",
+    "date": "3A-1944",
+    "range": "1944",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Wainriders ally themselves with Men from Khand and Near Harad and the enemies of Gondor attack the realm simultaneously from north and south and bring it to the brink of destruction. King Ondoher and his two sons Artamir and Faramir fall in a battle north of the Morannon, northern Ithilien is overrun by the enemies. In the south of the land, however, the general Eärnil achieves a great victory, turns his troops northward and surprises the Wainriders, who already think themselves victorious, through an attack on their main camp. They are defeated, their wagons burned and the survivors flee northward, where many of them find their end in the Dead Marshes. Arvedui, the King of Arthedain thereupon raises claim to the throne of Gondor, since he is a descendant of Isildur and is married to the only remaining child of the fallen King Ondoher, his daughter Fíriel, but is rejected by the Council of Gondor, which is mainly due to the working of Pelendur, the Steward of King Ondoher. The crown is instead awarded to the victorious general Eärnil, who is a descendant of Arciryas, a brother of Narmacil II, and thus stems from the royal house. Arvedui did not insist on his claim, but it remained unforgotten among his descendants, even after the loss of the northern kingship.",
+    "characters": [
+      "Wainriders",
+      "Men",
+      "Gondor",
+      "Ondoher",
+      "Artamir",
+      "Faramir",
+      "Eärnil",
+      "Arvedui",
+      "Isildur",
+      "Fíriel",
+      "Pelendur",
+      "Arciryas",
+      "Narmacil II"
+    ],
+    "locations": [
+      "Khand",
+      "Near Harad",
+      "Morannon",
+      "Ithilien",
+      "Dead Marshes",
+      "Arthedain"
+    ],
+    "artifacts": [],
+    "type": "battle"
+  },
+  {
+    "name": "Eärnil II becomes King",
+    "date": "3A-1945",
+    "range": "1945",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Eärnil II receives the crown of Gondor and promises Arvedui to come to his aid if Arthedain should get into distress, provided he will have the possibility to do so.",
+    "characters": [
+      "Eärnil II",
+      "Arvedui",
+      "Arthedain"
+    ],
+    "locations": [
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "succession"
+  },
+  {
+    "name": "Fall of Fornost",
+    "date": "3A-1974",
+    "range": "1974",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "In autumn news reaches Gondor that Arthedain is in highest need and the Witch-king of Angmar is preparing the last destructive blow against the realm. King Eärnil II thereupon sends his son Eärnur with a fleet northward. The Witch-king attacks Arthedain in winter, conquers Fornost and drives most of the Dúnedain across the Lhûn, including the king's sons. Arvedui himself fought Angmar's troops for a while on the northern downs and escapes thereafter with some bodyguards northward, where he hides for a time in the tunnels of the old dwarf-mines. Hunger finally forces him to make contact with the Lossoth, the Snow-men of Forochel, who at first rather reluctantly help him by providing him and his men with food and building them snow-huts. Since his horses have died, Arvedui is forced to wait there for help.",
+    "characters": [
+      "Eärnil II",
+      "Witch-king",
+      "Angmar",
+      "Arthedain",
+      "Eärnur",
+      "Arvedui",
+      "Dúnedain",
+      "Lossoth"
+    ],
+    "locations": [
+      "Gondor",
+      "Fornost",
+      "Lhûn",
+      "Forochel"
+    ],
+    "artifacts": [],
+    "type": "fall"
+  },
+  {
+    "name": "Battle of Fornost",
+    "date": "3A-1975",
+    "range": "1975",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Círdan, who has learned from Arvedui's son Aranarth that the king has fled northward, sends a ship to Forochel. Arvedui decides, against the advice of the Lossoth, to sail back to Lindon with the ship and hands over Barahir's Ring to the leader of the Snow-men in gratitude at parting. On the return journey, however, he suffers shipwreck and drowns in the Ice Bay of Forochel, whereby also the Palantíri of Amon Sûl and Annúminas are lost. Eärnur's fleet reaches Lindon only after the end of the North Kingdom and Arvedui's death. Together with the Elves from Lindon and the remaining troops from Arnor the strong army finally crosses the Lhûn to challenge the Witch-king to battle, who had taken his seat in Fornost. The Witch-king in turn advances against them and on the plain between the Nenuial and the northern downs a great battle takes place, in which Angmar's army is finally defeated. The Witch-king flees with his remaining troops northward towards Carn Dûm, but can be overtaken by Gondor's cavalry with Eärnur at the head at the Ettenmoors. A troop from Rivendell under Glorfindel's leadership joins them and Angmar is so devastatingly defeated that west of the Misty Mountains no Man or Orc from this realm remains alive. The Witch-king himself tries to attack Eärnur after his defeat, but his horse bolts in terror. With a horrible laugh the Lord of the Nazgûl finally turns to flight and Glorfindel recognizes that he will \"not fall by the hand of man\". Eärnur becomes the arch-enemy of the Witch-king.",
+    "characters": [
+      "Círdan",
+      "Arvedui",
+      "Aranarth",
+      "Lossoth",
+      "Eärnur",
+      "Elves",
+      "Witch-king",
+      "Glorfindel",
+      "Nazgûl"
+    ],
+    "locations": [
+      "Forochel",
+      "Lindon",
+      "Amon Sûl",
+      "Annúminas",
+      "Arnor",
+      "Lhûn",
+      "Fornost",
+      "Nenuial",
+      "Carn Dûm",
+      "Ettenmoors",
+      "Rivendell",
+      "Misty Mountains"
+    ],
+    "artifacts": [
+      "Barahir's Ring",
+      "Palantíri"
+    ],
+    "type": "battle"
+  },
+  {
+    "name": "Aranarth becomes Chieftain",
+    "date": "3A-1976",
+    "range": "1976",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Aranarth, Arvedui's son, takes the title \"Chieftain of the Dúnedain\". The heirlooms of Arnor are given into Elrond's keeping.",
+    "characters": [
+      "Aranarth",
+      "Arvedui",
+      "Dúnedain",
+      "Elrond"
+    ],
+    "locations": [
+      "Arnor"
+    ],
+    "artifacts": [],
+    "type": "succession"
+  },
+  {
+    "name": "Éothéod move northward",
+    "date": "3A-1977",
+    "range": "1977",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Éothéod move northward under Frumgar's leadership.",
+    "characters": [
+      "Éothéod",
+      "Frumgar"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "migration"
+  },
+  {
+    "name": "Bucca becomes first Thain",
+    "date": "3A-1979",
+    "range": "1979",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Bucca of the Marish, an ancestor of the Oldbucks, is elected first Thain of the Shire, which now governs itself after the end of the North Kingdom.",
+    "characters": [
+      "Bucca",
+      "Oldbucks"
+    ],
+    "locations": [
+      "Marish",
+      "Shire"
+    ],
+    "artifacts": [],
+    "type": "political"
+  },
+  {
+    "name": "Balrog awakens in Moria",
+    "date": "3A-1980",
+    "range": "1980",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Witch-king comes to Mordor and gathers the Nazgûl there. In Moria the Dwarves encounter a Balrog, later called Durin's Bane, which had hidden there and slays their king Durin VI. His son Náin I becomes his successor.",
+    "characters": [
+      "Witch-king",
+      "Nazgûl",
+      "Dwarves",
+      "Balrog",
+      "Durin VI",
+      "Náin I"
+    ],
+    "locations": [
+      "Mordor",
+      "Moria"
+    ],
+    "artifacts": [],
+    "type": "awakening"
+  },
+  {
+    "name": "Dwarves abandon Moria",
+    "date": "3A-1981",
+    "range": "1981",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Náin I is also killed by the Balrog and the Dwarves leave Moria under his son Thráin I. At the same time many Wood-elves flee southward. Amroth and Nimrodel are missing. Gondor is afflicted by one of the greatest storms in its history.",
+    "characters": [
+      "Náin I",
+      "Balrog",
+      "Dwarves",
+      "Thráin I",
+      "Wood-elves",
+      "Amroth",
+      "Nimrodel"
+    ],
+    "locations": [
+      "Moria",
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "abandonment"
+  },
+  {
+    "name": "Thráin I reaches Erebor",
+    "date": "3A-1999",
+    "range": "1999",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Thráin I reaches the Erebor with his people and founds the Dwarf-kingdom \"under the Mountain\".",
+    "characters": [
+      "Thráin I"
+    ],
+    "locations": [
+      "Erebor"
+    ],
+    "artifacts": [],
+    "type": "foundation"
+  },
+  {
+    "name": "Eärnil II crowned King",
+    "date": "3A-1945",
+    "range": "1945",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Eärnil II receives the crown of Gondor and promises Arvedui to come to his aid if Arthedain should get into distress, provided he will have the possibility to do so.",
+    "characters": [
+      "Eärnil II",
+      "Arvedui"
+    ],
+    "locations": [
+      "Gondor",
+      "Arthedain"
+    ],
+    "artifacts": [],
+    "type": "political"
+  },
+  {
+    "name": "Fall of Arthedain begins",
+    "date": "3A-1974",
+    "range": "1974",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "News reaches Gondor that Arthedain is in highest need and the Witch-king of Angmar prepares the final blow. King Eärnil II sends his son Eärnur with a fleet northward. The Witch-king attacks in winter, conquers Fornost and drives most Dúnedain across the Lhûn, including the king's sons. Arvedui fights on the northern downs then escapes north to hide in old dwarf-mines before seeking help from the Lossoth Snow-men of Forochel.",
+    "characters": [
+      "Eärnil II",
+      "Eärnur",
+      "Witch-king",
+      "Arvedui",
+      "Dúnedain",
+      "Lossoth"
+    ],
+    "locations": [
+      "Gondor",
+      "Arthedain",
+      "Angmar",
+      "Fornost",
+      "Lhûn",
+      "Forochel"
+    ],
+    "artifacts": [],
+    "type": "military"
+  },
+  {
+    "name": "Death of Arvedui and end of North Kingdom",
+    "date": "3A-1975",
+    "range": "1975",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Círdan sends a ship to rescue Arvedui from Forochel. Against Lossoth advice, Arvedui sails back to Lindon but suffers shipwreck in the Ice Bay, drowning along with the Palantíri of Amon Sûl and Annúminas. Eärnur's fleet arrives after Arvedui's death. The combined army of Gondor, Lindon Elves and Arnor remnants defeats the Witch-king at Fornost and pursues him to the Ettenmoors where Glorfindel's Rivendell forces help achieve devastating victory. The Witch-king flees after failing to attack Eärnur, whose horse bolts in terror. Glorfindel prophesies the Witch-king will 'not fall by the hand of man'.",
+    "characters": [
+      "Arvedui",
+      "Círdan",
+      "Lossoth",
+      "Eärnur",
+      "Witch-king",
+      "Glorfindel"
+    ],
+    "locations": [
+      "Forochel",
+      "Lindon",
+      "Ice Bay",
+      "Amon Sûl",
+      "Annúminas",
+      "Fornost",
+      "Ettenmoors",
+      "Rivendell"
+    ],
+    "artifacts": [
+      "Palantíri",
+      "Barahir's Ring"
+    ],
+    "type": "military"
+  },
+  {
+    "name": "Éothéod move north",
+    "date": "3A-1977",
+    "range": "1977",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Éothéod move northward under Frumgar's leadership.",
+    "characters": [
+      "Éothéod",
+      "Frumgar"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "migration"
+  },
+  {
+    "name": "First Thain of the Shire",
+    "date": "3A-1979",
+    "range": "1979",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Bucca of the Marish, an ancestor of the Oldbucks, is elected first Thain of the Shire, which now governs itself after the end of the North Kingdom.",
+    "characters": [
+      "Bucca of the Marish",
+      "Oldbucks"
+    ],
+    "locations": [
+      "Shire",
+      "Marish"
+    ],
+    "artifacts": [],
+    "type": "political"
+  },
+  {
+    "name": "Witch-king returns to Mordor, Durin's Bane awakens",
+    "date": "3A-1980",
+    "range": "1980",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Witch-king comes to Mordor and gathers the Nazgûl there. In Moria the Dwarves encounter a Balrog, later called Durin's Bane, which had hidden there and slays their king Durin VI. His son Náin I becomes his successor.",
+    "characters": [
+      "Witch-king",
+      "Nazgûl",
+      "Durin VI",
+      "Náin I",
+      "Balrog"
+    ],
+    "locations": [
+      "Mordor",
+      "Moria"
+    ],
+    "artifacts": [],
+    "type": "supernatural"
+  },
+  {
+    "name": "Náin I killed, Dwarves flee Moria",
+    "date": "3A-1981",
+    "range": "1981",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Náin I is also killed by the Balrog and the Dwarves leave Moria under his son Thráin I. Many Wood-elves flee southward. Amroth and Nimrodel are missing. Gondor is afflicted by one of the greatest storms in its history.",
+    "characters": [
+      "Náin I",
+      "Balrog",
+      "Thráin I",
+      "Amroth",
+      "Nimrodel",
+      "Wood-elves"
+    ],
+    "locations": [
+      "Moria",
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "disaster"
+  },
+  {
+    "name": "Kingdom under the Mountain founded",
+    "date": "3A-1999",
+    "range": "1999",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Thráin I reaches the Erebor with his people and founds the Dwarf-kingdom 'under the Mountain'.",
+    "characters": [
+      "Thráin I"
+    ],
+    "locations": [
+      "Erebor"
+    ],
+    "artifacts": [],
+    "type": "political"
+  }
+]

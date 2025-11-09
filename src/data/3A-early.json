@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Isildur's death at Gladden Fields",
+    "date": "3A-0002",
+    "range": "2",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Isildur plants a sapling of the White Tree in Minas Anor and decides, after having left the rule over Gondor to Meneldil, Anárion's son, to return with the One Ring via Imladris to Arnor. On his way he and his three eldest sons are slain by Orcs on the Gladden Fields.",
+    "characters": [
+      "Isildur",
+      "Meneldil",
+      "Anárion",
+      "Orcs"
+    ],
+    "locations": [
+      "Minas Anor",
+      "Gondor",
+      "Imladris",
+      "Arnor",
+      "Gladden Fields"
+    ],
+    "artifacts": [
+      "White Tree",
+      "One Ring"
+    ],
+    "type": "death"
+  },
+  {
+    "name": "Shards of Narsil brought to Imladris",
+    "date": "3A-0003",
+    "range": "3",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The shards of Narsil are brought by Isildur's esquire Ohtar to Imladris.",
+    "characters": [
+      "Isildur",
+      "Ohtar"
+    ],
+    "locations": [
+      "Imladris"
+    ],
+    "artifacts": [
+      "Narsil"
+    ],
+    "type": "journey"
+  },
+  {
+    "name": "Valandil becomes King of Arnor",
+    "date": "3A-0010",
+    "range": "10",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Valandil, Isildur's youngest and only surviving son, becomes King of Arnor.",
+    "characters": [
+      "Valandil",
+      "Isildur"
+    ],
+    "locations": [
+      "Arnor"
+    ],
+    "artifacts": [],
+    "type": "succession"
+  },
+  {
+    "name": "Elrond marries Celebrían",
+    "date": "3A-0109",
+    "range": "109",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Elrond marries Celebrían, daughter of Galadriel and Celeborn.",
+    "characters": [
+      "Elrond",
+      "Celebrían",
+      "Galadriel",
+      "Celeborn"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "marriage"
+  },
+  {
+    "name": "Birth of Elladan and Elrohir",
+    "date": "3A-0130",
+    "range": "130",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The twin brothers Elladan and Elrohir, Elrond's sons, are born.",
+    "characters": [
+      "Elladan",
+      "Elrohir",
+      "Elrond"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "Birth of Arwen",
+    "date": "3A-0241",
+    "range": "241",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Arwen, Elrond's daughter, is born.",
+    "characters": [
+      "Arwen",
+      "Elrond"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "birth"
+  },
+  {
+    "name": "Reconstruction of Minas Anor",
+    "date": "3A-0420",
+    "range": "420",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Under Gondor's King Ostoher a reconstruction of the city Minas Anor, later Minas Tirith, takes place. The kings use the city since then as summer residence and give it preference over the capital Osgiliath.",
+    "characters": [
+      "Ostoher"
+    ],
+    "locations": [
+      "Minas Anor",
+      "Minas Tirith",
+      "Gondor",
+      "Osgiliath"
+    ],
+    "artifacts": [],
+    "type": "construction"
+  },
+  {
+    "name": "Attack by wild Men from the east",
+    "date": "3A-0490",
+    "range": "490",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Gondor is attacked by wild Men from the east.",
+    "characters": [
+      "Men"
+    ],
+    "locations": [
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "attack"
+  },
+  {
+    "name": "Defeat of the Easterlings",
+    "date": "3A-0500",
+    "range": "500",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "The Easterlings are defeated by King Tarostar, who thereupon takes the name Rómendacil I, \"East-victor\".",
+    "characters": [
+      "Easterlings",
+      "Tarostar",
+      "Rómendacil I"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "battle"
+  },
+  {
+    "name": "Death of Rómendacil I",
+    "date": "3A-0541",
+    "range": "541",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Rómendacil I falls in battle against the again advancing Easterlings. His son, King Turambar, avenges him and conquers great territories in the east.",
+    "characters": [
+      "Rómendacil I",
+      "Easterlings",
+      "Turambar"
+    ],
+    "locations": [],
+    "artifacts": [],
+    "type": "death"
+  },
+  {
+    "name": "Beginning of the Ship-kings",
+    "date": "3A-0830",
+    "range": "830",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "With the coronation of the twelfth king Tarannon, who takes the epithet Falastur, \"Lord of the Coasts\", in memory of his victories as general, begins in Gondor the time of the so-called Ship-kings, who have great fleets built and extend Gondor's power on the coasts that lie west and south of the Anduin mouth.",
+    "characters": [
+      "Tarannon",
+      "Falastur"
+    ],
+    "locations": [
+      "Gondor",
+      "Anduin"
+    ],
+    "artifacts": [],
+    "type": "political"
+  },
+  {
+    "name": "Division of Arnor",
+    "date": "3A-0861",
+    "range": "861",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Eärendur, the tenth and last High King of Arnor, dies. Among his sons a succession dispute breaks out and the realm finally falls apart into three parts: Arthedain, Rhudaur and Cardolan. While the line of Isildur is preserved in Arthedain, it soon dies out in the other two partial realms. The kings who follow Eärendur no longer bear High-elvish names.",
+    "characters": [
+      "Eärendur",
+      "Isildur"
+    ],
+    "locations": [
+      "Arnor",
+      "Arthedain",
+      "Rhudaur",
+      "Cardolan"
+    ],
+    "artifacts": [],
+    "type": "political"
+  },
+  {
+    "name": "Eärnil I becomes King",
+    "date": "3A-0913",
+    "range": "913",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Tarannon Falastur dies as the first childless King of Gondor. The son of his brother Tarciryan becomes as Eärnil I the thirteenth King of the Southern Kingdom. He has the old harbor Pelargir improved in the following years and builds up a strong fleet.",
+    "characters": [
+      "Tarannon",
+      "Falastur",
+      "Tarciryan",
+      "Eärnil I"
+    ],
+    "locations": [
+      "Gondor",
+      "Pelargir"
+    ],
+    "artifacts": [],
+    "type": "succession"
+  },
+  {
+    "name": "Conquest of Umbar",
+    "date": "3A-0933",
+    "range": "933",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Eärnil I conquers Umbar, previously besieged from sea and land, and makes it a great harbor and fortress of Gondor.",
+    "characters": [
+      "Eärnil I"
+    ],
+    "locations": [
+      "Umbar",
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "conquest"
+  },
+  {
+    "name": "Death of Eärnil I",
+    "date": "3A-0936",
+    "range": "936",
+    "era": "Third Age",
+    "calendar": "Solar Years",
+    "description": "Eärnil I dies when he goes down together with many ships and men in a great storm off Umbar. His son Ciryandil, the fourteenth King of Gondor, continues the fleet-building he had begun.",
+    "characters": [
+      "Eärnil I",
+      "Ciryandil"
+    ],
+    "locations": [
+      "Umbar",
+      "Gondor"
+    ],
+    "artifacts": [],
+    "type": "death"
+  }
+]

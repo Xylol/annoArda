@@ -1,0 +1,72 @@
+[
+  {
+    "name": "The Valar come to Arda",
+    "date": "B1A-0001",
+    "range": "ca. 1",
+    "era": "Before First Age",
+    "calendar": "Valian Years",
+    "description": "The Valar come to Arda and begin to prepare the world for the Children of Ilúvatar. With them Melkor descends to Earth and destroys their works.",
+    "characters": ["Valar", "Melkor", "Ilúvatar"],
+    "locations": ["Arda", "Earth"],
+    "type": "creation"
+  },
+  {
+    "name": "Tulkas ends the First War",
+    "date": "B1A-1500",
+    "range": "ca. 1500",
+    "era": "Before First Age", 
+    "calendar": "Valian Years",
+    "description": "Tulkas descends to Arda, drives out Melkor and ends the First War",
+    "characters": ["Tulkas", "Melkor"],
+    "locations": ["Arda"],
+    "type": "war"
+  },
+  {
+    "name": "Creation of the Lamps",
+    "date": "B1A-1900",
+    "range": "ca. 1900",
+    "era": "Before First Age",
+    "calendar": "Valian Years", 
+    "description": "Aulë forges Illuin and Ormal, the Light-pillars of the Valar. The Valar order Middle-earth and move to Almaren. Beginning of the Spring of Arda.",
+    "characters": ["Aulë", "Valar"],
+    "locations": ["Middle-earth", "Almaren", "Arda"],
+    "artifacts": ["Illuin", "Ormal"],
+    "type": "creation"
+  },
+  {
+    "name": "Melkor returns and builds Utumno",
+    "date": "B1A-3400",
+    "range": "ca. 3400",
+    "era": "Before First Age",
+    "calendar": "Valian Years",
+    "description": "Melkor returns to Arda and begins building Utumno.",
+    "characters": ["Melkor"],
+    "locations": ["Arda", "Utumno"],
+    "artifacts": [],
+    "type": "construction"
+  },
+  {
+    "name": "Destruction of the Lamps",
+    "date": "B1A-3450",
+    "range": "ca. 3450",
+    "era": "Before First Age",
+    "calendar": "Valian Years",
+    "description": "Destruction of the two Lamps Illuin and Ormal by Melkor. The Valar move to Aman and abandon Middle-earth, which then falls to Melkor. End of the Spring of Arda.",
+    "characters": ["Melkor", "Valar"],
+    "locations": ["Aman", "Middle-earth", "Arda"],
+    "artifacts": ["Illuin", "Ormal"],
+    "type": "destruction"
+  },
+  {
+    "name": "Creation of the Two Trees",
+    "date": "B1A-3500",
+    "range": "ca. 3500",
+    "era": "Before First Age",
+    "calendar": "Valian Years",
+    "description": "Yavanna, Lady of Plants, creates together with Nienna, Lady of Grief, the Two Trees on the hill Ezellohar in Aman.",
+    "characters": ["Yavanna", "Nienna"],
+    "locations": ["Ezellohar", "Aman"],
+    "artifacts": ["Two Trees"],
+    "type": "creation"
+  }
+]

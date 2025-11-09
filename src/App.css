@@ -1,0 +1,86 @@
+/**
+ * Anno Arda - Dependent Sizing System
+ *
+ * All sizing is based on --input-width and cascades through the entire application.
+ * Change --input-width to adjust the entire layout proportionally.
+ */
+
+:root {
+  /* ============================================
+     BASE VARIABLES - Change these to resize everything
+     ============================================ */
+
+  /* Core input width - everything else is calculated from this */
+  /* Sized to fit longest calendar text "B1A - Before First Age" + search placeholder */
+  --input-width: 20rem;
+
+  /* Spacing constants */
+  --event-box-padding: 1.5rem;
+  --main-container-padding: 1rem;
+  --gap-between-boxes: 2rem;
+  --field-vertical-gap: 0.75rem;
+
+  /* Input styling */
+  --input-padding: 0.75rem;
+  --input-height: 2.75rem;
+
+
+  /* ============================================
+     COMPUTED VARIABLES - Auto-calculated from base
+     ============================================ */
+
+  /* EventInput box dimensions */
+  --event-box-width: calc(var(--input-width) + (var(--event-box-padding) * 2));
+
+  /* Duration box width = Start width + gap + End width */
+  --duration-width: calc((var(--event-box-width) * 2) + var(--gap-between-boxes));
+
+  /* Main container width = Duration width + main padding on both sides + buffer */
+  --main-container-width: calc(var(--duration-width) + (var(--main-container-padding) * 2) + 2rem);
+
+
+  /* ============================================
+     COLOR PALETTE - Consistent throughout app
+     ============================================ */
+
+  /* Backgrounds */
+  --bg-page: #121212;
+  --bg-main-container: #1e1e1e;
+  --bg-event-box: #2a2a2a;
+  --bg-input: #1a1a1a;
+  --bg-duration-box: #1a2332;
+  --bg-error-box: #3f1a1a;
+  --bg-search-results: #1a1a1a;
+  --bg-tooltip: #1a1a2e;
+
+  /* Borders */
+  --border-main: #333;
+  --border-event-box: #404040;
+  --border-input: #555;
+  --border-duration: #334155;
+  --border-error: #5a1a1a;
+  --border-tooltip: #4ade80;
+
+  /* Text colors */
+  --text-primary: #e0e0e0;
+  --text-secondary: #9ca3af;
+  --text-tertiary: #6b7280;
+  --text-accent: #4ade80;
+  --text-info: #60a5fa;
+  --text-valian: #a78bfa;
+  --text-error: #f87171;
+
+  /* Border radius */
+  --radius-small: 0.25rem;
+  --radius-medium: 0.5rem;
+  --radius-large: 0.75rem;
+
+  /* Font sizes */
+  --font-small: 0.8rem;
+  --font-base: 0.9rem;
+  --font-medium: 1rem;
+  --font-large: 1.1rem;
+  --font-xlarge: 1.3rem;
+  --font-xxlarge: 1.8rem;
+  --font-huge: 2.5rem;
+}
