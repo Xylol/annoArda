@@ -11,10 +11,12 @@ interface CalculationState {
   startMonth: string
   startDay: string
   startCalendar: CalendarSystem
+  startEventName: string
   endYear: string
   endMonth: string
   endDay: string
   endCalendar: CalendarSystem
+  endEventName: string
   results: CalculationResult | null
   errors: string[]
 }
@@ -55,15 +57,17 @@ interface EventInputProps {
   month: string
   day: string
   calendar: CalendarSystem
+  selectedEventName: string
   onYearChange: (value: string) => void
   onMonthChange: (value: string) => void
   onDayChange: (value: string) => void
   onCalendarChange: (value: CalendarSystem) => void
+  onSelectedEventNameChange: (value: string) => void
   searchResultsSide: 'left' | 'right'
   idPrefix: string
 }
 
-function EventInput({ title, titleColor, year, month, day, calendar, onYearChange, onMonthChange, onDayChange, onCalendarChange, searchResultsSide, idPrefix }: EventInputProps) {
+function EventInput({ title, titleColor, year, month, day, calendar, selectedEventName, onYearChange, onMonthChange, onDayChange, onCalendarChange, onSelectedEventNameChange, searchResultsSide, idPrefix }: EventInputProps) {
   const [searchQuery, setSearchQuery] = useState('')
   const [searchResults, setSearchResults] = useState<MiddleEarthEvent[]>([])
   const [showResults, setShowResults] = useState(false)
@@ -232,7 +236,8 @@ function EventInput({ title, titleColor, year, month, day, calendar, onYearChang
     const { year: eventYear, calendar: eventCalendar } = EventsService.getEventDate(event)
     onYearChange(eventYear.toString())
     onCalendarChange(eventCalendar)
-    
+    onSelectedEventNameChange(event.name)
+
     // Parse month and day from date if available (format: 3A-2018-03-25)
     const dateParts = event.date.split('-')
     if (dateParts.length >= 3) {
@@ -241,14 +246,14 @@ function EventInput({ title, titleColor, year, month, day, calendar, onYearChang
     } else {
       onMonthChange('')
     }
-    
+
     if (dateParts.length >= 4) {
       const day = parseInt(dateParts[3])
       onDayChange(day.toString())
     } else {
       onDayChange('')
     }
-    
+
     setSearchQuery('')
     setShowResults(false)
     setSelectedIndex(-1)
@@ -344,6 +349,48 @@ function EventInput({ title, titleColor, year, month, day, calendar, onYearChang
       boxSizing: 'border-box'
     }}>
       <h3 style={{ marginBottom: '1rem', color: titleColor }}>{title}</h3>
+
+      {/* Selected Event Display */}
+      {selectedEventName && (
+        <div style={{
+          marginBottom: '1rem',
+          padding: 'var(--input-padding)',
+          backgroundColor: 'var(--bg-input)',
+          borderRadius: 'var(--radius-small)',
+          border: '2px solid var(--text-accent)',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          gap: '0.5rem'
+        }}>
+          <div style={{
+            color: 'var(--text-accent)',
+            fontSize: 'var(--font-base)',
+            fontWeight: 'bold',
+            wordBreak: 'break-word',
+            flex: 1
+          }}>
+            {selectedEventName}
+          </div>
+          <button
+            onClick={() => onSelectedEventNameChange('')}
+            style={{
+              background: 'none',
+              border: 'none',
+              color: 'var(--text-secondary)',
+              cursor: 'pointer',
+              fontSize: 'var(--font-base)',
+              padding: '0.25rem',
+              lineHeight: 1,
+              flexShrink: 0
+            }}
+            title="Clear selection"
+            aria-label="Clear selected event"
+          >
+            ×
+          </button>
+        </div>
+      )}
 
       {/* Search Bar */}
       <label htmlFor={`${idPrefix}-search`} style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold', color: 'var(--text-primary)', fontSize: 'var(--font-base)' }}>Search:</label>
@@ -520,10 +567,12 @@ function App() {
     startMonth: '',
     startDay: '',
     startCalendar: CalendarSystem.A3,
+    startEventName: '',
     endYear: '',
     endMonth: '',
     endDay: '',
     endCalendar: CalendarSystem.A3,
+    endEventName: '',
     results: null,
     errors: []
   })
@@ -764,30 +813,34 @@ function App() {
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--gap-between-boxes)', justifyContent: 'center', alignItems: 'flex-start' }}>
             <EventInput
               title="Start"
-              titleColor="#4ade80"
+              titleColor="#3a9d6a"
               year={state.startYear}
               month={state.startMonth}
               day={state.startDay}
               calendar={state.startCalendar}
+              selectedEventName={state.startEventName}
               onYearChange={(value) => setState(prev => ({ ...prev, startYear: value }))}
               onMonthChange={(value) => setState(prev => ({ ...prev, startMonth: value }))}
               onDayChange={(value) => setState(prev => ({ ...prev, startDay: value }))}
               onCalendarChange={(value) => setState(prev => ({ ...prev, startCalendar: value }))}
+              onSelectedEventNameChange={(value) => setState(prev => ({ ...prev, startEventName: value }))}
               searchResultsSide="right"
               idPrefix="start"
             />
 
             <EventInput
               title="End"
-              titleColor="#4ade80"
+              titleColor="#3a9d6a"
               year={state.endYear}
               month={state.endMonth}
               day={state.endDay}
               calendar={state.endCalendar}
+              selectedEventName={state.endEventName}
               onYearChange={(value) => setState(prev => ({ ...prev, endYear: value }))}
               onMonthChange={(value) => setState(prev => ({ ...prev, endMonth: value }))}
               onDayChange={(value) => setState(prev => ({ ...prev, endDay: value }))}
               onCalendarChange={(value) => setState(prev => ({ ...prev, endCalendar: value }))}
+              onSelectedEventNameChange={(value) => setState(prev => ({ ...prev, endEventName: value }))}
               searchResultsSide="left"
               idPrefix="end"
             />

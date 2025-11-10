@@ -59,13 +59,13 @@
   --border-input: #555;
   --border-duration: #334155;
   --border-error: #5a1a1a;
-  --border-tooltip: #4ade80;
+  --border-tooltip: #3a9d6a;
 
   /* Text colors */
   --text-primary: #e0e0e0;
   --text-secondary: #9ca3af;
   --text-tertiary: #6b7280;
-  --text-accent: #4ade80;
+  --text-accent: #3a9d6a;
   --text-info: #60a5fa;
   --text-valian: #a78bfa;
   --text-error: #f87171;
