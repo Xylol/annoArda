@@ -10,7 +10,6 @@ on:
 
 jobs:
   claude-work-on-issue:
-    # Only run for new issues with "claude" label created by repo owner
     if: |
       github.event_name == 'issues' &&
       contains(github.event.issue.labels.*.name, 'claude') &&
@@ -26,9 +25,15 @@ jobs:
       id-token: write
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Work on issue
         uses: anthropics/claude-code-action@v1
         with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           prompt: |
             Work on issue #${{ github.event.issue.number }}: ${{ github.event.issue.title }}
 
@@ -39,36 +44,12 @@ jobs:
             - Make the necessary code changes to resolve this issue
             - Commit your changes with clear, descriptive messages
             - Create a pull request that references this issue with "Fixes #${{ github.event.issue.number }}"
+            - Add the label "claude-processed" to the original issue
 
             Do not push to main or master branches.
-
           claude_args: --max-turns 50
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-
-      - name: Mark issue as processed
-        if: success()
-        run: |
-          gh issue edit ${{ github.event.issue.number }} \
-            --add-label "claude-processed" \
-            --repo ${{ github.repository }}
-
-          gh issue comment ${{ github.event.issue.number }} \
-            --repo ${{ github.repository }} \
-            --body "Processing complete. Please review the pull request."
-        env:
-          GH_TOKEN: ${{ github.token }}
-
-      - name: Report failure
-        if: failure()
-        run: |
-          gh issue comment ${{ github.event.issue.number }} \
-            --repo ${{ github.repository }} \
-            --body "An error occurred while working on this issue. Please check the workflow logs for details."
-        env:
-          GH_TOKEN: ${{ github.token }}
 
   claude-respond-to-feedback:
-    # Run when PR is reviewed or commented on
     if: |
       (github.event_name == 'pull_request_review' && github.event.review.state != 'approved') ||
       (github.event_name == 'issue_comment' && github.event.issue.pull_request != null)
@@ -82,59 +63,26 @@ jobs:
       id-token: write
 
     steps:
-      - name: Get PR details
-        id: pr
-        run: |
-          if [ "${{ github.event_name }}" == "pull_request_review" ]; then
-            PR_NUMBER=${{ github.event.pull_request.number }}
-          else
-            PR_NUMBER=${{ github.event.issue.number }}
-          fi
-
-          echo "number=$PR_NUMBER" >> $GITHUB_OUTPUT
-
-          # Get the PR branch name
-          BRANCH=$(gh pr view $PR_NUMBER --repo ${{ github.repository }} --json headRefName -q '.headRefName')
-          echo "branch=$BRANCH" >> $GITHUB_OUTPUT
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Respond to feedback
         uses: anthropics/claude-code-action@v1
         with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           prompt: |
-            Pull request #${{ steps.pr.outputs.number }} has received feedback.
+            This pull request has received feedback. Please address the following:
 
-            Review/Comment:
             ${{ github.event.review.body || github.event.comment.body }}
 
-            Please:
-            1. Check out the branch: ${{ steps.pr.outputs.branch }}
-            2. Read the PR diff and understand the current changes
-            3. Read all review comments and change requests
-            4. Implement the requested changes
-            5. Commit with a clear message describing what feedback you addressed
-            6. Push to the same branch
+            Instructions:
+            - Read all review comments and change requests
+            - Implement the requested changes
+            - Commit with a clear message describing what feedback you addressed
+            - Push to the same branch to update the PR
+            - Add a comment explaining what you changed
 
-            Do not create a new PR. Update the existing branch.
-
+            Do not create a new PR or push to main/master.
           claude_args: --max-turns 30
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-
-      - name: Acknowledge feedback
-        if: success()
-        run: |
-          gh pr comment ${{ steps.pr.outputs.number }} \
-            --repo ${{ github.repository }} \
-            --body "I've addressed the feedback and pushed updates to this PR. Please review the changes."
-        env:
-          GH_TOKEN: ${{ github.token }}
-
-      - name: Report failure
-        if: failure()
-        run: |
-          gh pr comment ${{ steps.pr.outputs.number }} \
-            --repo ${{ github.repository }} \
-            --body "I encountered an error while addressing the feedback. Please check the workflow logs."
-        env:
-          GH_TOKEN: ${{ github.token }}
