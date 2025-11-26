@@ -48,6 +48,35 @@ jobs:
 
             Do not push to main or master branches.
           claude_args: --max-turns 100
+          settings: |
+            {
+              "permissions": {
+                "allow": ["Bash", "Read", "Edit", "Write", "Glob", "Grep", "Bash(git:*)", "Bash(gh:*)", "Bash(npm:*)", "Bash(node:*)"],
+                "deny": []
+              },
+              "permissionMode": "allowlist"
+            }
+
+      - name: Verify task completion
+        run: |
+          # Check if PR was created for this issue
+          BRANCH_NAME="claude/issue-${{ github.event.issue.number }}"
+          PR_COUNT=$(gh pr list --repo ${{ github.repository }} --head "$BRANCH_NAME" --json number --jq 'length')
+
+          if [ "$PR_COUNT" -eq 0 ]; then
+            echo "Error: No pull request was created from branch $BRANCH_NAME"
+            gh issue comment ${{ github.event.issue.number }} \
+              --repo ${{ github.repository }} \
+              --body "Task incomplete: No pull request was created. Please check the workflow logs for details."
+            exit 1
+          fi
+
+          echo "Verification passed: PR created successfully"
+          gh issue comment ${{ github.event.issue.number }} \
+            --repo ${{ github.repository }} \
+            --body "Processing complete. Please review the pull request."
+        env:
+          GH_TOKEN: ${{ github.token }}
 
   claude-respond-to-feedback:
     if: |
@@ -86,3 +115,38 @@ jobs:
 
             Do not create a new PR or push to main/master.
           claude_args: --max-turns 30
+          settings: |
+            {
+              "permissions": {
+                "allow": ["Bash", "Read", "Edit", "Write", "Glob", "Grep", "Bash(git:*)", "Bash(gh:*)", "Bash(npm:*)", "Bash(node:*)"],
+                "deny": []
+              },
+              "permissionMode": "allowlist"
+            }
+
+      - name: Verify changes were pushed
+        run: |
+          # Get PR number
+          if [ "${{ github.event_name }}" == "pull_request_review" ]; then
+            PR_NUMBER=${{ github.event.pull_request.number }}
+          else
+            PR_NUMBER=${{ github.event.issue.number }}
+          fi
+
+          # Check if there are new commits in the last 5 minutes
+          RECENT_COMMITS=$(gh pr view $PR_NUMBER --repo ${{ github.repository }} --json commits --jq '.commits[-1].committedDate')
+
+          if [ -z "$RECENT_COMMITS" ]; then
+            echo "Error: No commits found in PR"
+            gh pr comment $PR_NUMBER \
+              --repo ${{ github.repository }} \
+              --body "Task incomplete: Failed to address feedback. Please check the workflow logs."
+            exit 1
+          fi
+
+          echo "Verification passed: Changes pushed successfully"
+          gh pr comment $PR_NUMBER \
+            --repo ${{ github.repository }} \
+            --body "Feedback addressed. Please review the changes."
+        env:
+          GH_TOKEN: ${{ github.token }}
