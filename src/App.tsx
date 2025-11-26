@@ -413,18 +413,40 @@ function EventInput({ title, titleColor, year, month, day, calendar, selectedEve
       {showResults && searchResults.length > 0 && (
         <div className="search-results" style={{
           position: 'absolute',
-          top: '-10rem',
           height: '40vh',
           maxHeight: '30rem',
-          ...(searchResultsSide === 'left' ? { right: 'calc(100% + var(--gap-between-boxes))' } : { left: 'calc(100% + var(--gap-between-boxes))' }),
-          width: 'calc(50vw - 4rem)',
           backgroundColor: 'var(--bg-search-results)',
           border: '1px solid var(--border-input)',
           borderRadius: 'var(--radius-medium)',
           overflowY: 'auto',
           zIndex: 1000,
           boxShadow: '0 0.5rem 1rem rgba(0,0,0,0.5)'
+        } as React.CSSProperties & {
+          '--mobile-top'?: string;
+          '--mobile-left'?: string;
+          '--mobile-width'?: string;
+          '--desktop-top'?: string;
+          '--desktop-side'?: string;
+          '--desktop-width'?: string;
         }}>
+          <style>{`
+            @media (max-width: 768px) {
+              .search-results {
+                top: calc(100% + 0.5rem) !important;
+                left: 0 !important;
+                right: 0 !important;
+                width: 100% !important;
+                max-height: 50vh !important;
+              }
+            }
+            @media (min-width: 769px) {
+              .search-results {
+                top: -10rem !important;
+                ${searchResultsSide === 'left' ? 'right: calc(100% + var(--gap-between-boxes)) !important;' : 'left: calc(100% + var(--gap-between-boxes)) !important;'}
+                width: calc(50vw - 4rem) !important;
+              }
+            }
+          `}</style>
           <div style={{
             padding: 'var(--input-padding)',
             borderBottom: '1px solid var(--border-main)',
@@ -470,28 +492,42 @@ function EventInput({ title, titleColor, year, month, day, calendar, selectedEve
 
       {/* Tooltip */}
       {tooltip.show && (
-        <div style={{
-          position: 'fixed',
-          ...(searchResultsSide === 'right'
-            ? { right: `calc(100vw - ${tooltip.x}px)` }
-            : { left: tooltip.x }),
-          top: tooltip.y,
-          width: tooltip.width || 'var(--event-box-width)',
-          maxWidth: '90vw',
-          backgroundColor: 'var(--bg-tooltip)',
-          color: 'var(--text-primary)',
-          padding: '1.25rem',
-          borderRadius: 'var(--radius-large)',
-          border: '2px solid var(--border-tooltip)',
-          boxShadow: '0 0.5rem 1.5rem rgba(0,0,0,0.4)',
-          zIndex: 1001,
-          fontSize: 'var(--font-medium)',
-          lineHeight: '1.6',
-          pointerEvents: 'none',
-          fontWeight: '400'
-        }}>
-          {tooltip.content}
-        </div>
+        <>
+          <style>{`
+            @media (max-width: 768px) {
+              .mobile-tooltip {
+                position: fixed !important;
+                left: 1rem !important;
+                right: 1rem !important;
+                top: auto !important;
+                bottom: 1rem !important;
+                width: auto !important;
+              }
+            }
+          `}</style>
+          <div className="mobile-tooltip" style={{
+            position: 'fixed',
+            ...(searchResultsSide === 'right'
+              ? { right: `calc(100vw - ${tooltip.x}px)` }
+              : { left: tooltip.x }),
+            top: tooltip.y,
+            width: tooltip.width || 'var(--event-box-width)',
+            maxWidth: '90vw',
+            backgroundColor: 'var(--bg-tooltip)',
+            color: 'var(--text-primary)',
+            padding: '1.25rem',
+            borderRadius: 'var(--radius-large)',
+            border: '2px solid var(--border-tooltip)',
+            boxShadow: '0 0.5rem 1.5rem rgba(0,0,0,0.4)',
+            zIndex: 1001,
+            fontSize: 'var(--font-medium)',
+            lineHeight: '1.6',
+            pointerEvents: 'none',
+            fontWeight: '400'
+          }}>
+            {tooltip.content}
+          </div>
+        </>
       )}
 
       {/* Manual Entry Fields */}
