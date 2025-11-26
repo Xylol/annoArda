@@ -23,6 +23,7 @@ jobs:
       contents: write
       issues: write
       pull-requests: write
+      id-token: write
 
     steps:
       - name: Work on issue
@@ -78,6 +79,7 @@ jobs:
       contents: write
       issues: write
       pull-requests: write
+      id-token: write
 
     steps:
       - name: Get PR details
