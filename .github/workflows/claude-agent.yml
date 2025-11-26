@@ -33,7 +33,7 @@ jobs:
       - name: Work on issue
         uses: anthropics/claude-code-action@v1
         with:
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           show_full_output: true
           prompt: |
             Work on issue #${{ github.event.issue.number }}: ${{ github.event.issue.title }}
@@ -72,7 +72,7 @@ jobs:
       - name: Respond to feedback
         uses: anthropics/claude-code-action@v1
         with:
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             This pull request has received feedback. Please address the following:
 
