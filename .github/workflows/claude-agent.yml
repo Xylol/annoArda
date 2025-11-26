@@ -47,7 +47,7 @@ jobs:
             - Add the label "claude-processed" to the original issue
 
             Do not push to main or master branches.
-          claude_args: --max-turns 50
+          claude_args: --max-turns 100
 
   claude-respond-to-feedback:
     if: |
