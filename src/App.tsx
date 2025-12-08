@@ -65,9 +65,12 @@ interface EventInputProps {
   onSelectedEventNameChange: (value: string) => void
   searchResultsSide: 'left' | 'right'
   idPrefix: string
+  isSearchActive: boolean
+  onSearchActiveChange: (active: boolean) => void
+  shouldHideOnMobile: boolean
 }
 
-function EventInput({ title, titleColor, year, month, day, calendar, selectedEventName, onYearChange, onMonthChange, onDayChange, onCalendarChange, onSelectedEventNameChange, searchResultsSide, idPrefix }: EventInputProps) {
+function EventInput({ title, titleColor, year, month, day, calendar, selectedEventName, onYearChange, onMonthChange, onDayChange, onCalendarChange, onSelectedEventNameChange, searchResultsSide, idPrefix, onSearchActiveChange, shouldHideOnMobile }: EventInputProps) {
   const [searchQuery, setSearchQuery] = useState('')
   const [searchResults, setSearchResults] = useState<MiddleEarthEvent[]>([])
   const [showResults, setShowResults] = useState(false)
@@ -106,14 +109,16 @@ function EventInput({ title, titleColor, year, month, day, calendar, selectedEve
       setSelectedIndex(-1)
       setHoveredIndex(-1)
       setTooltip({ show: false, content: '', x: 0, y: 0 })
+      onSearchActiveChange(true)
     } else {
       setSearchResults([])
       setShowResults(false)
       setSelectedIndex(-1)
       setHoveredIndex(-1)
       setTooltip({ show: false, content: '', x: 0, y: 0 })
+      onSearchActiveChange(false)
     }
-  }, [searchQuery])
+  }, [searchQuery, onSearchActiveChange])
 
   const showTooltipForIndex = (index: number, sourceType: 'keyboard' | 'mouse' = 'keyboard') => {
     if (index >= 0 && index < searchResults.length) {
@@ -339,7 +344,7 @@ function EventInput({ title, titleColor, year, month, day, calendar, selectedEve
   }
 
   return (
-    <div style={{
+    <div className={shouldHideOnMobile ? 'event-input-hide-mobile' : ''} style={{
       padding: 'var(--event-box-padding)',
       backgroundColor: 'var(--bg-event-box)',
       borderRadius: 'var(--radius-medium)',
@@ -348,6 +353,13 @@ function EventInput({ title, titleColor, year, month, day, calendar, selectedEve
       flex: '0 0 var(--event-box-width)',
       boxSizing: 'border-box'
     }}>
+      <style>{`
+        @media (max-width: 768px) {
+          .event-input-hide-mobile {
+            display: none !important;
+          }
+        }
+      `}</style>
       <h3 style={{ marginBottom: '1rem', color: titleColor }}>{title}</h3>
 
       {/* Selected Event Display */}
@@ -612,6 +624,8 @@ function App() {
     results: null,
     errors: []
   })
+  const [startSearchActive, setStartSearchActive] = useState(false)
+  const [endSearchActive, setEndSearchActive] = useState(false)
 
   const calculateDetailedDuration = useCallback((totalDays: number) => {
     const absDays = Math.abs(totalDays)
@@ -862,6 +876,9 @@ function App() {
               onSelectedEventNameChange={(value) => setState(prev => ({ ...prev, startEventName: value }))}
               searchResultsSide="right"
               idPrefix="start"
+              isSearchActive={startSearchActive}
+              onSearchActiveChange={setStartSearchActive}
+              shouldHideOnMobile={endSearchActive}
             />
 
             <EventInput
@@ -879,6 +896,9 @@ function App() {
               onSelectedEventNameChange={(value) => setState(prev => ({ ...prev, endEventName: value }))}
               searchResultsSide="left"
               idPrefix="end"
+              isSearchActive={endSearchActive}
+              onSearchActiveChange={setEndSearchActive}
+              shouldHideOnMobile={startSearchActive}
             />
           </div>
           
