@@ -68,9 +68,10 @@ interface EventInputProps {
   isSearchActive: boolean
   onSearchActiveChange: (active: boolean) => void
   shouldHideOnMobile: boolean
+  shouldHideFieldsOnMobile: boolean
 }
 
-function EventInput({ title, titleColor, year, month, day, calendar, selectedEventName, onYearChange, onMonthChange, onDayChange, onCalendarChange, onSelectedEventNameChange, searchResultsSide, idPrefix, onSearchActiveChange, shouldHideOnMobile }: EventInputProps) {
+function EventInput({ title, titleColor, year, month, day, calendar, selectedEventName, onYearChange, onMonthChange, onDayChange, onCalendarChange, onSelectedEventNameChange, searchResultsSide, idPrefix, onSearchActiveChange, shouldHideOnMobile, shouldHideFieldsOnMobile }: EventInputProps) {
   const [searchQuery, setSearchQuery] = useState('')
   const [searchResults, setSearchResults] = useState<MiddleEarthEvent[]>([])
   const [showResults, setShowResults] = useState(false)
@@ -358,6 +359,9 @@ function EventInput({ title, titleColor, year, month, day, calendar, selectedEve
           .event-input-hide-mobile {
             display: none !important;
           }
+          .event-fields-hide-mobile {
+            display: none !important;
+          }
         }
       `}</style>
       <h3 style={{ marginBottom: '1rem', color: titleColor }}>{title}</h3>
@@ -543,7 +547,7 @@ function EventInput({ title, titleColor, year, month, day, calendar, selectedEve
       )}
 
       {/* Manual Entry Fields */}
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--field-vertical-gap)' }}>
+      <div className={shouldHideFieldsOnMobile ? 'event-fields-hide-mobile' : ''} style={{ display: 'flex', flexDirection: 'column', gap: 'var(--field-vertical-gap)' }}>
         <div>
           <label htmlFor={`${idPrefix}-calendar`} style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold', color: 'var(--text-primary)', fontSize: 'var(--font-base)' }}>Calendar:</label>
           <select
@@ -879,6 +883,7 @@ function App() {
               isSearchActive={startSearchActive}
               onSearchActiveChange={setStartSearchActive}
               shouldHideOnMobile={endSearchActive}
+              shouldHideFieldsOnMobile={startSearchActive || endSearchActive}
             />
 
             <EventInput
@@ -899,6 +904,7 @@ function App() {
               isSearchActive={endSearchActive}
               onSearchActiveChange={setEndSearchActive}
               shouldHideOnMobile={startSearchActive}
+              shouldHideFieldsOnMobile={startSearchActive || endSearchActive}
             />
           </div>
           
