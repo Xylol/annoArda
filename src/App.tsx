@@ -746,23 +746,25 @@ function App() {
         return
       }
 
+      // Get calendar modules to check their capabilities
+      const startModule = getCalendarModule(state.startCalendar)
+      const endModule = getCalendarModule(state.endCalendar)
+
       const startDate: CalendarDate = {
         year: startYear,
-        month: state.startMonth ? parseInt(state.startMonth) : undefined,
-        day: state.startDay ? parseInt(state.startDay) : undefined,
+        month: startModule.info.hasMonths && state.startMonth ? parseInt(state.startMonth) : undefined,
+        day: startModule.info.hasDays && state.startDay ? parseInt(state.startDay) : undefined,
         calendar: state.startCalendar
       }
 
       const endDate: CalendarDate = {
         year: endYear,
-        month: state.endMonth ? parseInt(state.endMonth) : undefined,
-        day: state.endDay ? parseInt(state.endDay) : undefined,
+        month: endModule.info.hasMonths && state.endMonth ? parseInt(state.endMonth) : undefined,
+        day: endModule.info.hasDays && state.endDay ? parseInt(state.endDay) : undefined,
         calendar: state.endCalendar
       }
 
       // Validate dates with specific error messages
-      const startModule = getCalendarModule(state.startCalendar)
-      const endModule = getCalendarModule(state.endCalendar)
 
       const startValidation = validateDateWithDetails(startDate, startModule, 'Start')
       if (startValidation.error) {
